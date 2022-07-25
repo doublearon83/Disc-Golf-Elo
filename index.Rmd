@@ -4,12 +4,27 @@ output:
   flexdashboard::flex_dashboard:
     orientation: columns
     vertical_layout: fill
+runtime: shiny
 ---
 
 ```{r setup, include=FALSE}
 library(flexdashboard)
 library(tidyverse)
 library(knitr)
+library(shiny)
+Name <- c("Wysocki", "McBeth", "McMahon","Wysocki","McBeth","McMahon","Wysocki","McBeth","McMahon")
+Year <- c(2020,2020,2020,2021,2021,2021,2022,2022,2022)
+Elo <- c(1700,1800,1900,1750,1850,1950,1800,1900,2000)
+testdata <- data.frame(Name,Year,Elo)
+```
+
+Inputs {.sidebar}
+-----------------------------------------------------------------------
+
+```{r}
+ selectInput("Name", label = h3("Player Name"), 
+    choices = c(unique(testdata$Name)), 
+    selected = "McBeth")
 ```
 
 Column {data-width=650}
@@ -18,10 +33,6 @@ Column {data-width=650}
 ### Chart A
 
 ```{r}
-Name <- c("Wysocki", "McBeth", "McMahon","wysocki","McBeth","McMahon","Wysocki","McBeth","McMahon")
-Year <- c(2020,2020,2020,2021,2021,2021,2022,2022,2022)
-Elo <- c(1700,1800,1900,1750,1850,1950,1800,1900,2000)
-testdata <- data.frame(Name,Year,Elo)
 kable(testdata)
 ```
 
@@ -31,12 +42,17 @@ Column {data-width=350}
 ### Chart B
 
 ```{r}
-plot(testdata)
+nam <- reactive((input$Name))
+renderTable(
+  testdata[Name==nam(),]
+            )
 ```
 
 ### Chart C
 
 ```{r}
-
+renderPlot(
+  plot(Elo~Year,data=testdata[Name==nam(),])
+  )
 ```
 
