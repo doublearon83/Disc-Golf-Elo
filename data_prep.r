@@ -49,6 +49,10 @@ logreg_data_25 <- subset(logreg_data_25,logreg_data_25$year>2016)
 logreg_data_25 <- logreg_data_25[logreg_data_25$Etot!=0,]
 logreg_data_25$Etot <- round(logreg_data_25$Etot,0)
 logreg_data_25$date<-as.Date(logreg_data_25$date,format="%d-%m-%Y")
+names(logreg_data_25) <- c("Name","Event","Year","Date","Elo")
+
+logreg_rank$Etot <- round(logreg_rank$Etot,0)
+names(logreg_rank) <- c("Name","Elo")
 
 write.csv(logreg_data_25,"EloDashData.csv")
 write.csv(logreg_rank,"EloRank25.csv")

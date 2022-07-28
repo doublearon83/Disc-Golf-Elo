@@ -1,5 +1,5 @@
 ---
-title: "Flex Dashboard Example"
+title: "Disc Golf Elo Ratings"
 output: 
   flexdashboard::flex_dashboard:
     orientation: columns
@@ -14,62 +14,73 @@ library(shiny)
 library(crosstalk)
 library(DT)
 library(plotly)
+library(scales)
 knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=F)
 testdata <- read.csv("EloDashData.csv")
 testdata <- testdata[,-1]
-testdata$date<-as.Date(testdata$date,format="%Y-%m-%d")
-testdata$year <- as.character(testdata$year)
+testdata$date<-as.Date(testdata$Date,format="%Y-%m-%d")
+testdata$year <- as.character(testdata$Year)
 tdata <- SharedData$new(testdata)
 rank <- read.csv("EloRank25.csv")
+rank <- rank[,-1]
 ```
 
-Inputs {.sidebar}
------------------------------------------------------------------------
 
-```{r}
-filter_select("name", "Choose Player", tdata, ~name)
-```
-
-```{r}
-filter_select("year", "Choose Year", tdata, ~year)
-```
-
-Column {data-width=500}
+Column {data-width=600}
 -----------------------------------------------------------------------
 
 ### Chart A
 
 ```{r}
-datatable(tdata,
+datatable(rank,
           class = "compact cell-border",
           rownames = FALSE,
           options = list(order = list(1, "desc"),
                          autoWidth = FALSE,
-                         pageLength = 20))
+                         pageLength = 25))
+#datatable(tdata,
+#          class = "compact cell-border",
+#          rownames = FALSE,
+#          options = list(order = list(1, "desc"),
+#                         autoWidth = FALSE,
+#                         pageLength = 20))
 ```
 
-Column {data-width=500}
+
+Inputs {.sidebar, data-width=400}
 -----------------------------------------------------------------------
 
-### Plot of Elo by Player and Year
+```{r}
+filter_select("Name", "Choose Player", tdata, ~Name)
+```
 
 ```{r}
-g <- ggplot(tdata,aes(date,Etot,group=name)) + 
-  geom_line(aes(color=name))
+filter_select("Year", "Choose Year", tdata, ~Year)
+```
 
-ggplotly(g)%>%
+
+### Explore Top-25 Players, select players and years
+
+```{r}
+g <- ggplot(tdata,aes(as.Date(Date),Elo,group=Name)) + 
+  geom_line(aes(color=Name)) +
+  scale_x_date(date_labels = "%Y")+
+  xlab("Date")
+
+ggplotly(g,tooltip = c("x", "y", "group"))%>%
     layout(showlegend = F)
 ```
 
 ### Current Top-25 Players Ranked
 
 ```{r}
-q <- ggplot(rank,aes(x=reorder(name,-Etot),y=Etot,color=name)) + 
+q <- ggplot(rank,aes(x=reorder(Name,-Elo),y=Elo,color=Name)) + 
   geom_bar(stat="identity")+
-  coord_cartesian(ylim=c((min(rank$Etot)-100),(max(rank$Etot)+50)))+
+  coord_cartesian(ylim=c((min(rank$Elo)-100),(max(rank$Elo)+50)))+
+  xlab("Player")+
   theme(axis.text.x=element_blank())
 
-ggplotly(q)%>%
+ggplotly(q,tooltip = c("y", "Name"))%>%
     layout(showlegend = F)
 ```
 
