@@ -11,47 +11,65 @@ library(flexdashboard)
 library(tidyverse)
 library(knitr)
 library(shiny)
-Name <- c("Wysocki", "McBeth", "McMahon","Wysocki","McBeth","McMahon","Wysocki","McBeth","McMahon")
-Year <- c(2020,2020,2020,2021,2021,2021,2022,2022,2022)
-Elo <- c(1700,1800,1900,1750,1850,1950,1800,1900,2000)
-testdata <- data.frame(Name,Year,Elo)
+library(crosstalk)
+library(DT)
+library(plotly)
+knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=F)
+testdata <- read.csv("EloDashData.csv")
+testdata <- testdata[,-1]
+testdata$date<-as.Date(testdata$date,format="%Y-%m-%d")
+testdata$year <- as.character(testdata$year)
+tdata <- SharedData$new(testdata)
+rank <- read.csv("EloRank25.csv")
 ```
 
 Inputs {.sidebar}
 -----------------------------------------------------------------------
 
 ```{r}
- selectInput("Name", label = h3("Player Name"), 
-    choices = c(unique(testdata$Name)), 
-    selected = "McBeth")
+filter_select("name", "Choose Player", tdata, ~name)
 ```
 
-Column {data-width=650}
+```{r}
+filter_select("year", "Choose Year", tdata, ~year)
+```
+
+Column {data-width=500}
 -----------------------------------------------------------------------
 
 ### Chart A
 
 ```{r}
-kable(testdata)
+datatable(tdata,
+          class = "compact cell-border",
+          rownames = FALSE,
+          options = list(order = list(1, "desc"),
+                         autoWidth = FALSE,
+                         pageLength = 20))
 ```
 
-Column {data-width=350}
+Column {data-width=500}
 -----------------------------------------------------------------------
 
-### Chart B
+### Plot of Elo by Player and Year
 
 ```{r}
-nam <- reactive((input$Name))
-renderTable(
-  testdata[Name==nam(),]
-            )
+g <- ggplot(tdata,aes(date,Etot,group=name)) + 
+  geom_line(aes(color=name))
+
+ggplotly(g)%>%
+    layout(showlegend = F)
 ```
 
-### Chart C
+### Current Top-25 Players Ranked
 
 ```{r}
-renderPlot(
-  plot(Elo~Year,data=testdata[Name==nam(),])
-  )
+q <- ggplot(rank,aes(x=reorder(name,-Etot),y=Etot,color=name)) + 
+  geom_bar(stat="identity")+
+  coord_cartesian(ylim=c((min(rank$Etot)-100),(max(rank$Etot)+50)))+
+  theme(axis.text.x=element_blank())
+
+ggplotly(q)%>%
+    layout(showlegend = F)
 ```
 
