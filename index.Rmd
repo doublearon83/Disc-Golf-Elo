@@ -26,7 +26,7 @@ rank <- rank[,-1]
 ```
 
 
-Column {data-width=600}
+Column {data-width=800}
 -----------------------------------------------------------------------
 
 ### Chart A
@@ -47,7 +47,7 @@ datatable(rank,
 ```
 
 
-Inputs {.sidebar, data-width=400}
+Inputs {.sidebar, data-width=200}
 -----------------------------------------------------------------------
 
 ```{r}
