@@ -1,2 +1,9 @@
 name: "Disc Golf Elo Rating"
-output_dir: docs
+navbar:
+  title: "DSEE Labs"
+  left:
+    - text: "Elo Top-25"
+      href: index.html
+    - text: "Explore Data"
+      href: Explore Data.html
+output_dir: "docs"

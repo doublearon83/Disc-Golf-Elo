@@ -1,5 +1,5 @@
 ---
-title: "Disc Golf Elo Ratings"
+title: "Explore Data"
 output: 
   flexdashboard::flex_dashboard:
     orientation: columns
@@ -26,34 +26,46 @@ rank <- rank[,-1]
 ```
 
 
+Inputs {.sidebar}
+-----------------------------------------------------------------------
+
+```{r}
+filter_select("Name", "Choose Player", tdata, ~Name)
+```
+
+```{r}
+filter_select("Year", "Choose Year", tdata, ~Year)
+```
+
+
 Column {data-width=400}
 -----------------------------------------------------------------------
 
-### Top-25 Players in Elo Rating
+### Table of Elo Ratings
 
 ```{r}
-datatable(rank,
+datatable(tdata,
           class = "compact cell-border",
           rownames = FALSE,
           options = list(order = list(1, "desc"),
                          autoWidth = FALSE,
-                         pageLength = 25))
+                         pageLength = 20))
 ```
-
 
 Column {data-width=600}
 -----------------------------------------------------------------------
 
-### Bar Chart of Top-25 Players (float cursor over bars for more info)
+### Plot of Top-25 Players Over Time
 
 ```{r}
-q <- ggplot(rank,aes(x=reorder(Name,-Elo),y=Elo,color=Name)) + 
-  geom_bar(stat="identity")+
-  coord_cartesian(ylim=c((min(rank$Elo)-100),(max(rank$Elo)+50)))+
-  xlab("Player")+
-  theme(axis.text.x=element_blank())
+g <- ggplot(tdata,aes(as.Date(Date),Elo,group=Name)) + 
+  geom_line(aes(color=Name)) +
+  scale_x_date(date_labels = "%Y")+
+  xlab("Date")
 
-ggplotly(q,tooltip = c("y", "Name"))%>%
+ggplotly(g,tooltip = c("x", "y", "group"))%>%
     layout(showlegend = F)
 ```
 
+
+###
