@@ -5,5 +5,5 @@ navbar:
     - text: "Elo Top-25"
       href: index.html
     - text: "Explore Data"
-      href: Explore Data.html
+      href: Explore-Data.html
 output_dir: "docs"
