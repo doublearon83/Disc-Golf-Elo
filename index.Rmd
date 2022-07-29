@@ -61,7 +61,7 @@ ggplotly(q,tooltip = c("y", "Name"))%>%
 
 ### Methodology
 
-[Elo Ratings](https://en.wikipedia.org/wiki/Elo_rating_system#:~:text=The%20Elo%20rating%20system%20is,a%20Hungarian%2DAmerican%20physics%20professor.) were invented by Physicist Arpad Elo in the mid twentieth as a way to measure the relative skill of chess players.  They are now used for a wide variety of sports (including esports).
+[Elo Ratings](https://en.wikipedia.org/wiki/Elo_rating_system#:~:text=The%20Elo%20rating%20system%20is,a%20Hungarian%2DAmerican%20physics%20professor.) were invented by Physicist Arpad Elo in the mid-twentieth century as a way to measure the relative skill of chess players.  They are now used for a wide variety of sports (including esports).
 
 Elo ratings were originally designed for measuring players of one-on-one sports.  However, I have been working since ~2017 to modify the metric for disc golf (see [this article](https://discgolf.ultiworld.com/2018/02/13/introducing-2017-disc-golf-elo-ratings/) for more details).
 
