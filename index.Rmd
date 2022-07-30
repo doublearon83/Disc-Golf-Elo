@@ -16,6 +16,7 @@ library(crosstalk)
 library(DT)
 library(plotly)
 library(scales)
+library(png)
 knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=F)
 testdata <- read.csv("EloDashData.csv")
 testdata <- testdata[,-1]
@@ -40,7 +41,8 @@ datatable(rank,
           rownames = FALSE,
           options = list(order = list(1, "desc"),
                          autoWidth = FALSE,
-                         pageLength = 25))
+                         pageLength = 25,
+                         columnDefs = list(list(className = 'dt-center', targets = 1))))
 ```
 
 
@@ -50,11 +52,15 @@ Column {data-width=600}
 ### Bar Chart of Top-25 Players (float cursor over bars for more info)
 
 ```{r}
+path <- "C:/Users/17163/Documents/Disc golf analytics/Elo ratings/image.png"
+img <- readPNG(path, native=F)
 q <- ggplot(rank,aes(x=reorder(Name,-Elo),y=Elo,color=Name)) + 
   geom_bar(stat="identity")+
   coord_cartesian(ylim=c((min(rank$Elo)-100),(max(rank$Elo)+50)))+
   xlab("Player")+
-  theme(axis.text.x=element_blank())
+  annotation_raster(img, xmin = 10, xmax = 15.5, ymin = 2100, ymax = 2165)+
+  theme(axis.text.x=element_blank(),
+        panel.background = element_blank())
 
 ggplotly(q,tooltip = c("y", "Name"))%>%
     layout(showlegend = F)
