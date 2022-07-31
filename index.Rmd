@@ -49,37 +49,29 @@ datatable(rank,
 Column {data-width=600}
 -----------------------------------------------------------------------
 
+### {data-height=100}
+
+![](images/image.png)
+
 ### Bar Chart of Top-25 Players (float cursor over bars for more info)
 
 ```{r}
-path <- "C:/Users/17163/Documents/Disc golf analytics/Elo ratings/image.png"
-img <- readPNG(path, native=F)
+#path <- "C:/Users/17163/Documents/Disc golf analytics/Elo ratings/image.png"
+#img <- readPNG(path, native=F)
 q <- ggplot(rank,aes(x=reorder(Name,-Elo),y=Elo,color=Name)) + 
-  geom_bar(stat="identity")+
-  coord_cartesian(ylim=c((min(rank$Elo)-100),(max(rank$Elo)+50)))+
+  geom_bar(stat="identity", fill="blue")+
   xlab("Player")+
-  annotation_raster(img, xmin = 10, xmax = 15.5, ymin = 2100, ymax = 2165)+
+  ylab("Elo Rating")+
+  coord_flip()+
+  coord_cartesian(ylim=c((min(rank$Elo)-100),(max(rank$Elo)+0)))+
+  
+ # annotation_raster(img, xmin = 10, xmax = 15.5, ymin = 2100, ymax = 2165)+
   theme(axis.text.x=element_blank(),
         panel.background = element_blank())
 
 ggplotly(q,tooltip = c("y", "Name"))%>%
     layout(showlegend = F)
 ```
-
-### Methodology
-
-[Elo Ratings](https://en.wikipedia.org/wiki/Elo_rating_system#:~:text=The%20Elo%20rating%20system%20is,a%20Hungarian%2DAmerican%20physics%20professor.) were invented by Physicist Arpad Elo in the mid-twentieth century as a way to measure the relative skill of chess players.  They are now used for a wide variety of sports (including esports).
-
-Elo ratings were originally designed for measuring players of one-on-one sports.  However, I have been working since ~2017 to modify the metric for disc golf (see [this article](https://discgolf.ultiworld.com/2018/02/13/introducing-2017-disc-golf-elo-ratings/) for more details).
-
-The two equations below, which I use for this metric, are pretty much the standard Elo equations.  *ES* stands for expected score, *S* is actual score, and *K* is the k-factor, which is a multiplier for the amount a rating will change per event.  I am currently using a k-factor of 40.
-
-$$ Elo_i=Elo_{i-1}-K*MS*(S-ES)$$
-$$ES=\frac{1}{(10^{-(Elo_n-\overline{Elo})/400}+1)}$$
-
-MS stands for margin stabilizer, which is an additional (and novel) multiplier that influences how much ratings change per event.  However, the multiplier value if different for each player based on how said player's rating compares to the average rating of the field.  If a players rating is low, a very good round will cause their rating to go up a lot, but a bad round will not cause their rating to decrease.  The opposite is true for players with high ratings.  So it has the largest effect at the margins, hence the name.
-
-$$MS=[e^{S-ES}]^{-(Elo_n-\overline{Elo})/100}$$
 
 
 Data Exploration
@@ -127,4 +119,18 @@ ggplotly(g,tooltip = c("x", "y", "group"))%>%
 ```
 
 
-###
+### Methodology
+
+[Elo Ratings](https://en.wikipedia.org/wiki/Elo_rating_system#:~:text=The%20Elo%20rating%20system%20is,a%20Hungarian%2DAmerican%20physics%20professor.) were invented by Physicist Arpad Elo in the mid-twentieth century as a way to measure the relative skill of chess players.  They are now used for a wide variety of sports (including esports).
+
+Elo ratings were originally designed for measuring players of one-on-one sports.  However, I have been working since ~2017 to modify the metric for disc golf (see [this article](https://discgolf.ultiworld.com/2018/02/13/introducing-2017-disc-golf-elo-ratings/) for more details).
+
+The two equations below, which I use for this metric, are pretty much the standard Elo equations.  *ES* stands for expected score, *S* is actual score, and *K* is the k-factor, which is a multiplier for the amount a rating will change per event.  I am currently using a k-factor of 40.
+
+$$ Elo_i=Elo_{i-1}-K*MS*(S-ES)$$
+$$ES=\frac{1}{(10^{-(Elo_n-\overline{Elo})/400}+1)}$$
+
+*MS* (margin stabilizer) is an additional (and novel) multiplier that influences how much ratings change per event.  However, unlike k-factor, which is the same for all players, the MS value is different for each player and based on how a player's rating compares to the average rating of the field.  If a players rating is low compared to the field, a very good round will cause their rating to go up a lot, but a bad round will not cause their rating to decrease.  The opposite is true for players with high ratings.  So it has the largest effect at the margins, hence the name.
+
+$$MS=[e^{S-ES}]^{-(Elo_n-\overline{Elo})/100}$$
+
