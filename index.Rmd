@@ -80,6 +80,8 @@ Data Exploration
 Inputs {.sidebar}
 -----------------------------------------------------------------------
 
+![](images/imageC-modified.png){width=100px}
+
 ```{r}
 filter_select("Name", "Choose Player", tdata, ~Name)
 ```
