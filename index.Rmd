@@ -17,6 +17,7 @@ library(DT)
 library(plotly)
 library(scales)
 library(png)
+library(r2symbols)
 knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=F)
 testdata <- read.csv("EloDashData.csv")
 testdata <- testdata[,-1]
@@ -42,7 +43,7 @@ datatable(rank,
           options = list(order = list(1, "desc"),
                          autoWidth = FALSE,
                          pageLength = 25,
-                         columnDefs = list(list(className = 'dt-center', targets = 1))))
+                         columnDefs = list(list(className = 'dt-center', targets = 1:2))))
 ```
 
 
