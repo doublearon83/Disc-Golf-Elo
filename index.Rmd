@@ -19,6 +19,8 @@ library(scales)
 library(png)
 library(r2symbols)
 knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=F)
+
+#MPO
 testdata <- read.csv("EloDashData.csv")
 testdata <- testdata[,-1]
 testdata$Date<-as.Date(testdata$Date,format="%Y-%m-%d")
@@ -26,6 +28,15 @@ testdata$Year <- as.character(testdata$Year)
 tdata <- SharedData$new(testdata)
 rank <- read.csv("EloRank25.csv")
 rank <- rank[,-1]
+
+#FPO
+testdataFPO <- read.csv("EloDashDataFPO.csv")
+testdataFPO <- testdataFPO[,-1]
+testdataFPO$Date<-as.Date(testdataFPO$Date,format="%Y-%m-%d")
+testdataFPO$Year <- as.character(testdataFPO$Year)
+tdataFPO <- SharedData$new(testdataFPO)
+rankFPO <- read.csv("EloRank25FPO.csv")
+rankFPO <- rankFPO[,-1]
 ```
 
 Top-25
@@ -137,3 +148,98 @@ $$ES=\frac{1}{(10^{-(Elo_n-\overline{Elo})/400}+1)}$$
 
 $$MS=[e^{S-ES}]^{-(Elo_n-\overline{Elo})/100}$$
 
+Top-25 (FPO)
+======================================================================= 
+
+Column {data-width=400}
+-----------------------------------------------------------------------
+
+### Top-25 Players in Elo Rating
+
+```{r}
+datatable(rankFPO,
+          class = "compact cell-border",
+          rownames = FALSE,
+          options = list(order = list(1, "desc"),
+                         autoWidth = FALSE,
+                         pageLength = 25,
+                         columnDefs = list(list(className = 'dt-center', targets = 1:2))))
+```
+
+
+Column {data-width=600}
+-----------------------------------------------------------------------
+
+### {data-height=100}
+
+![](images/imageL.png)
+
+### Bar Chart of Top-25 Players (float cursor over bars for more info)
+
+```{r}
+#path <- "C:/Users/17163/Documents/Disc golf analytics/Elo ratings/image.png"
+#img <- readPNG(path, native=F)
+qFPO <- ggplot(rankFPO,aes(x=reorder(Name,-Elo),y=Elo,color=Name)) + 
+  geom_bar(stat="identity", fill="blue")+
+  xlab("Player")+
+  ylab("Elo Rating")+
+  coord_flip()+
+  coord_cartesian(ylim=c((min(rankFPO$Elo)-100),(max(rankFPO$Elo)+0)))+
+  
+ # annotation_raster(img, xmin = 10, xmax = 15.5, ymin = 2100, ymax = 2165)+
+  theme(axis.text.x=element_blank(),
+        panel.background = element_blank())
+
+ggplotly(qFPO,tooltip = c("y", "Name"))%>%
+    layout(showlegend = F)
+```
+
+
+Data Exploration (FPO)
+=======================================================================
+
+Inputs {.sidebar}
+-----------------------------------------------------------------------
+
+![](images/imageC-modified.png){width=100px}
+
+```{r}
+filter_select("Name", "Choose Player", tdataFPO, ~Name)
+```
+
+```{r}
+filter_select("Year", "Choose Year", tdataFPO, ~Year)
+```
+
+
+Column {data-width=400}
+-----------------------------------------------------------------------
+
+### Table of Elo Ratings by Player, Event, Year, and Date
+
+```{r}
+datatable(tdataFPO,
+          class = "compact cell-border",
+          rownames = FALSE,
+          options = list(order = list(1, "desc"),
+                         autoWidth = FALSE,
+                         pageLength = 20))
+```
+
+Column {data-width=600}
+-----------------------------------------------------------------------
+
+### Plot of Top-25 Players Over Time
+
+```{r}
+gFPO <- ggplot(tdataFPO,aes(as.Date(Date),Elo,group=Name)) + 
+  geom_line(aes(color=Name)) +
+  scale_x_date(date_labels = "%Y")+
+  xlab("Date")
+
+ggplotly(gFPO,tooltip = c("x", "y", "group"))%>%
+    layout(showlegend = F)
+```
+
+
+###
