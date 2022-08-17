@@ -139,7 +139,7 @@ ggplotly(g,tooltip = c("x", "y", "group"))%>%
 
 Elo ratings were originally designed for measuring players of one-on-one sports.  However, I have been working since ~2017 to modify the metric for disc golf (see [this article](https://discgolf.ultiworld.com/2018/02/13/introducing-2017-disc-golf-elo-ratings/) for more details).
 
-The two equations below, which I use for this metric, are pretty much the standard Elo equations.  *ES* stands for expected score, *S* is actual score, and *K* is the k-factor, which is a multiplier for the amount a rating will change per round.  I am currently using a k-factor of 40.
+The two equations below, which I use for this metric, are pretty much the standard Elo equations.  *ES* stands for expected score, *S* is actual score, and *K* is the k-factor, which is a multiplier for the amount a rating will change per round.  I am currently using a k-factor of 20.
 
 $$ Elo_i=Elo_{i-1}-K*MS*(S-ES)$$
 $$ES=\frac{1}{(10^{-(Elo_n-\overline{Elo})/400}+1)}$$

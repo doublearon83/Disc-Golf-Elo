@@ -4,12 +4,12 @@ ey <- unique(logregFPO[c("Ev","year")])
 eyy <-ey[ey$year==ey[nrow(ey),]$year,]
 leyy<-nrow(eyy)
 
-logregFPO_sub1<-subset(logregFPO,logregFPO$Ev==eyy$Ev[1] & logregFPO$year==eyy$year[1])
+logregFPO_sub1<-subset(logregFPO,logregFPO$Ev==eyy$Ev[1] & logregFPO$year==eyy$year[1] & logregFPO$E!="NA")
 logregFPO_sub1$Etot<-rowSums(cbind(logregFPO_sub1$E,logregFPO_sub1$Et),na.rm=T)
 logregFPO_sub1<-logregFPO_sub1[,c(5,9,4)]
 logregFPO_sub1<-logregFPO_sub1[order(logregFPO_sub1$Etot,decreasing=T),][1:25,]
 
-logregFPO_sub2<-subset(logregFPO,logregFPO$Ev==eyy$Ev[2] & logregFPO$year==eyy$year[2])
+logregFPO_sub2<-subset(logregFPO,logregFPO$Ev==eyy$Ev[2] & logregFPO$year==eyy$year[2] & logregFPO$E!="NA")
 logregFPO_sub2$Etot<-rowSums(cbind(logregFPO_sub2$E,logregFPO_sub2$Et),na.rm=T)
 logregFPO_sub2<-logregFPO_sub2[,c(5,9,4)]
 logregFPO_sub2<-logregFPO_sub2[order(logregFPO_sub2$Etot,decreasing=T),][1:25,]
@@ -25,7 +25,7 @@ logregFPO_sub2 <- logregFPO_sub2[!logregFPO_sub2$name %in% logregFPO_sub1$name,]
 logregFPO_rank <- rbind(logregFPO_sub1,logregFPO_sub2)
 logregFPO_rank <- logregFPO_rank[order(logregFPO_rank$Etot,decreasing=T),][1:25,]
 for (i in 3:leyy) {
-  logregFPO_sub1<-subset(logregFPO,logregFPO$Ev==eyy$Ev[i] & logregFPO$year==eyy$year[i])
+  logregFPO_sub1<-subset(logregFPO,logregFPO$Ev==eyy$Ev[i] & logregFPO$year==eyy$year[i] & logregFPO$E!="NA")
   logregFPO_sub1$Etot<-rowSums(cbind(logregFPO_sub1$E,logregFPO_sub1$Et),na.rm=T)
   logregFPO_sub1<-logregFPO_sub1[,c(5,9,4)]
   logregFPO_sub1<-logregFPO_sub1[order(logregFPO_sub1$Etot,decreasing=T),][1:25,]
@@ -48,13 +48,13 @@ logregFPO_data_25$Etot <- rowSums(cbind(logregFPO_data_25$E,logregFPO_data_25$Et
 logregFPO_data_25 <- logregFPO_data_25[,c(5,6,7,8,9,4)]
 logregFPO_data_25 <- subset(logregFPO_data_25,logregFPO_data_25$year>2017)
 logregFPO_data_25 <- logregFPO_data_25[logregFPO_data_25$Etot!=0,]
-logregFPO_data_25$Etot <- round(logregFPO_data_25$Etot,0)
-logregFPO_data_25$Et <- round(logregFPO_data_25$Et,0)
+logregFPO_data_25$Etot <- round(logregFPO_data_25$Etot,1)
+logregFPO_data_25$Et <- round(logregFPO_data_25$Et,1)
 logregFPO_data_25$date<-as.Date(logregFPO_data_25$date,format="%d-%m-%Y")
 names(logregFPO_data_25) <- c("Name","Event","Year","Date","Elo","dElo")
 
-logregFPO_rank$Etot <- round(logregFPO_rank$Etot,0)
-logregFPO_rank$Et <- round(logregFPO_rank$Et,0)
+logregFPO_rank$Etot <- round(logregFPO_rank$Etot,1)
+logregFPO_rank$Et <- round(logregFPO_rank$Et,1)
 names(logregFPO_rank) <- c("Name","Elo","dElo")
 
 write.csv(logregFPO_data_25,"EloDashDataFPO.csv")
