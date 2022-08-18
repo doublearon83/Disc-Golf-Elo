@@ -29,6 +29,9 @@ testdata$Year <- as.character(testdata$Year)
 tdata <- SharedData$new(testdata)
 rank <- read.csv("EloRank25.csv")
 rank <- rank[,-1]
+winprob <- read.csv("WinProb.csv")
+winprob <- winprob[-1] 
+names(winprob)<-c("Players","Win Probability (%)","Elo")
 
 #FPO
 testdataFPO <- read.csv("EloDashDataFPO.csv")
@@ -102,7 +105,7 @@ filter_select("Year", "Choose Year", tdata, ~Year)
 Column
 -----------------------------------------------------------------------
 
-### Plot of Top-25 Players Over Time
+### Plot of Top-25 Players Over Time (float cursor over line(s) for more info) {data-height=700}
 
 ```{r}
 g <- ggplot(tdata,aes(as.Date(Date),Elo,group=Name)) + 
@@ -130,6 +133,21 @@ $$ES=\frac{1}{(10^{-(Elo_n-\overline{Elo})/400}+1)}$$
 
 $$MS=[e^{S-ES}]^{-(Elo_n-\overline{Elo})/100}$$
 
+Win probabilities for next DGPT or Major
+=======================================================================
+
+Column {data-width=600}
+-----------------------------------------------------------------------
+
+```{r}
+paged_table(winprob,options=list(rows.print=25))
+```
+
+
+Column {data-width=400}
+-----------------------------------------------------------------------
+
+
 Top-25 (FPO)
 ======================================================================= 
 
@@ -143,13 +161,7 @@ Column {data-width=400}
 ### Top-25 Players in Elo Rating
 
 ```{r}
-datatable(rankFPO,
-          class = "compact cell-border",
-          rownames = FALSE,
-          options = list(order = list(1, "desc"),
-                         autoWidth = FALSE,
-                         pageLength = 25,
-                         columnDefs = list(list(className = 'dt-center', targets = 1:2))))
+paged_table(rankFPO,options=list(rows.print=25))
 ```
 
 
@@ -194,24 +206,10 @@ filter_select("Year", "Choose Year", tdataFPO, ~Year)
 ```
 
 
-Column {data-width=400}
+Column 
 -----------------------------------------------------------------------
 
-### Table of Elo Ratings by Player, Event, Year, and Date
-
-```{r}
-datatable(tdataFPO,
-          class = "compact cell-border",
-          rownames = FALSE,
-          options = list(order = list(1, "desc"),
-                         autoWidth = FALSE,
-                         pageLength = 20))
-```
-
-Column {data-width=600}
------------------------------------------------------------------------
-
-### Plot of Top-25 Players Over Time
+### Plot of Top-25 Players Over Time (float cursor over line(s) for more info) {data-height=700}
 
 ```{r}
 gFPO <- ggplot(tdataFPO,aes(as.Date(Date),Elo,group=Name)) + 

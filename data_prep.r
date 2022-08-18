@@ -111,7 +111,9 @@ prob_win<-round(prob_win,3)*100
 
 #Win prob table
 win_data<-data.frame(names(prob_win),as.numeric(prob_win),logreg_rank_playing$Elo)
-names(win_data)<-c("Players","Win Probability (%)","Elo")
+names(win_data)<-c("Players","Win_Prob","Elo")
+
+write.csv(win_data,"WinProb.csv")
 
 datatable(win_data,
           class = "compact cell-border",
