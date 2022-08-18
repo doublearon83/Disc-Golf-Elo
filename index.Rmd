@@ -1,6 +1,6 @@
 ---
 title: "Disc Golf Elo Ratings"
-date: "updated: `r Sys.Date()`"
+date: "`r Sys.Date()`"
 output: 
   flexdashboard::flex_dashboard:
     orientation: columns
