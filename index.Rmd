@@ -45,6 +45,11 @@ Top-25
 Column {data-width=400}
 -----------------------------------------------------------------------
 
+### {data-height=100}
+
+![](images/imageL.png)
+
+
 ### Top-25 Players in Elo Rating
 
 ```{r}
@@ -61,9 +66,6 @@ datatable(rank,
 Column {data-width=600}
 -----------------------------------------------------------------------
 
-### {data-height=100}
-
-![](images/imageL.png)
 
 ### Bar Chart of Top-25 Players (float cursor over bars for more info)
 
@@ -92,6 +94,8 @@ Data Exploration
 Inputs {.sidebar}
 -----------------------------------------------------------------------
 
+Use the boxes below to subset Elo ratings by player and year.
+
 ```{r}
 filter_select("Name", "Choose Player", tdata, ~Name)
 ```
@@ -99,8 +103,6 @@ filter_select("Name", "Choose Player", tdata, ~Name)
 ```{r}
 filter_select("Year", "Choose Year", tdata, ~Year)
 ```
-
-![](images/imageC-modified.png){width=80px}
 
 
 Column {data-width=400}
@@ -154,6 +156,10 @@ Top-25 (FPO)
 Column {data-width=400}
 -----------------------------------------------------------------------
 
+### {data-height=100}
+
+![](images/imageL.png)
+
 ### Top-25 Players in Elo Rating
 
 ```{r}
@@ -169,10 +175,6 @@ datatable(rankFPO,
 
 Column {data-width=600}
 -----------------------------------------------------------------------
-
-### {data-height=100}
-
-![](images/imageL.png)
 
 ### Bar Chart of Top-25 Players (float cursor over bars for more info)
 
@@ -201,6 +203,8 @@ Data Exploration (FPO)
 Inputs {.sidebar}
 -----------------------------------------------------------------------
 
+Use the boxes below to subset Elo ratings by player and year.
+
 ```{r}
 filter_select("Name", "Choose Player", tdataFPO, ~Name)
 ```
@@ -208,8 +212,6 @@ filter_select("Name", "Choose Player", tdataFPO, ~Name)
 ```{r}
 filter_select("Year", "Choose Year", tdataFPO, ~Year)
 ```
-
-![](images/imageC-modified.png){width=80px}
 
 
 Column {data-width=400}
