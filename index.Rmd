@@ -92,8 +92,6 @@ Data Exploration
 Inputs {.sidebar}
 -----------------------------------------------------------------------
 
-![](images/imageC-modified.png){width=100px}
-
 ```{r}
 filter_select("Name", "Choose Player", tdata, ~Name)
 ```
@@ -101,6 +99,8 @@ filter_select("Name", "Choose Player", tdata, ~Name)
 ```{r}
 filter_select("Year", "Choose Year", tdata, ~Year)
 ```
+
+![](images/imageC-modified.png){width=80px}
 
 
 Column {data-width=400}
@@ -201,8 +201,6 @@ Data Exploration (FPO)
 Inputs {.sidebar}
 -----------------------------------------------------------------------
 
-![](images/imageC-modified.png){width=100px}
-
 ```{r}
 filter_select("Name", "Choose Player", tdataFPO, ~Name)
 ```
@@ -210,6 +208,8 @@ filter_select("Name", "Choose Player", tdataFPO, ~Name)
 ```{r}
 filter_select("Year", "Choose Year", tdataFPO, ~Year)
 ```
+
+![](images/imageC-modified.png){width=80px}
 
 
 Column {data-width=400}

@@ -59,3 +59,5 @@ names(logregFPO_rank) <- c("Name","Elo","dElo")
 
 write.csv(logregFPO_data_25,"EloDashDataFPO.csv")
 write.csv(logregFPO_rank,"EloRank25FPO.csv")
+
+
