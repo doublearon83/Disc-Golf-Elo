@@ -18,6 +18,7 @@ library(plotly)
 library(scales)
 library(png)
 library(r2symbols)
+library(rmarkdown)
 knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=F)
 
 #MPO
@@ -53,13 +54,7 @@ Column {data-width=400}
 ### Top-25 Players in Elo Rating
 
 ```{r}
-datatable(rank,
-          class = "compact cell-border",
-          rownames = FALSE,
-          options = list(order = list(1, "desc"),
-                         autoWidth = FALSE,
-                         pageLength = 25,
-                         columnDefs = list(list(className = 'dt-center', targets = 1:2))))
+paged_table(rank,options=list(rows.print=25))
 ```
 
 
@@ -104,22 +99,7 @@ filter_select("Name", "Choose Player", tdata, ~Name)
 filter_select("Year", "Choose Year", tdata, ~Year)
 ```
 
-
-Column {data-width=400}
------------------------------------------------------------------------
-
-### Table of Elo Ratings by Player, Event, Year, and Date
-
-```{r}
-datatable(tdata,
-          class = "compact cell-border",
-          rownames = FALSE,
-          options = list(order = list(1, "desc"),
-                         autoWidth = FALSE,
-                         pageLength = 20))
-```
-
-Column {data-width=600}
+Column
 -----------------------------------------------------------------------
 
 ### Plot of Top-25 Players Over Time
