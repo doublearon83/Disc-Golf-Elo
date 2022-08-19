@@ -18,7 +18,7 @@ library(plotly)
 library(scales)
 library(png)
 library(r2symbols)
-library(rmarkdown)
+library(kableExtra)
 knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=F)
 
 #MPO
@@ -31,7 +31,7 @@ rank <- read.csv("EloRank25.csv")
 rank <- rank[,-1]
 winprob <- read.csv("WinProb.csv")
 winprob <- winprob[-1] 
-names(winprob)<-c("Players","Win Probability (%)","Elo")
+names(winprob)<-c("Players","Win Prob (%)","Elo")
 
 #FPO
 testdataFPO <- read.csv("EloDashDataFPO.csv")
@@ -57,7 +57,9 @@ Column {data-width=400}
 ### Top-25 Players in Elo Rating
 
 ```{r}
-paged_table(rank,options=list(rows.print=25))
+rank %>%
+  kbl() %>%
+  kable_styling()
 ```
 
 
@@ -127,7 +129,9 @@ Column {data-width=400}
 Win probabilities for the next DGPT or Major event. 
 
 ```{r}
-paged_table(winprob,options=list(rows.print=25))
+winprob %>%
+  kbl() %>%
+  kable_styling()
 ```
 
 
@@ -148,7 +152,9 @@ Column {data-width=400}
 ### Top-25 Players in Elo Rating
 
 ```{r}
-paged_table(rankFPO,options=list(rows.print=25))
+rankFPO %>%
+  kbl() %>%
+  kable_styling()
 ```
 
 
