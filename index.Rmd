@@ -135,8 +135,16 @@ winprob %>%
 ```
 
 
-Column {data-width=400}
+Column {data-width=20}
 -----------------------------------------------------------------------
+
+Column {data-width=380}
+-----------------------------------------------------------------------
+<br>
+
+Methodology:
+
+These win probabilities are experimental.  The probabilities are generated using a [logistic regression](https://en.wikipedia.org/wiki/Logistic_regression) with only two explanatory variables: Elo rating and player.  Ricky Wysocki's win probability is high because his Elo rating is high and he wins a lot.  Gannon Buhr's win probability is lower than expected given his rating because he has yet to win an Elite Series event.
 
 
 Top-25 (FPO)
