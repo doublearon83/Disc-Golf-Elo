@@ -61,3 +61,57 @@ write.csv(logregFPO_data_25,"EloDashDataFPO.csv")
 write.csv(logregFPO_rank,"EloRank25FPO.csv")
 
 
+### Win probabilities###
+
+## win probs for ratings and players
+logregFPO_prob<-subset(logregFPO,logregFPO$year>=2020 & logregFPO$E>1680)
+logregFPO_prob$P[logregFPO_prob$P!=1]<-0
+outf<-glm(P~E,data=logregFPO_prob,family=binomial)
+summary(outf)
+
+## extract coefs for players
+#not using these for now (could be framework for code needed later)
+mod_p_coefs<-coef(outf)[-c(1:2)]
+mod_p_names<-substr(names(coef(outf)[-c(1:2)]),5,length(names(coef(outf)[-c(1:2)])))
+names(mod_p_coefs)<-mod_p_names
+mod_p_coefs<-mod_p_coefs[mod_p_names %in% logregFPO_rank$Name]
+rank_p_coefs<-mod_p_coefs[match(logregFPO_rank$Name,names(mod_p_coefs))]
+
+## determine which players in top-25 are playing next event
+require(rvest)
+
+##### PDGA event number MUST CHANGE EACH TIME #####
+eventnum<-55460
+###################################################
+
+
+event <- read_html(paste("https://www.pdga.com/tour/event/",eventnum,sep=""))#
+name<-event %>%
+  html_nodes(".player") %>%
+  html_text()
+
+name[which(name=="Eagle Wynne McMahon")]<-"Eagle McMahon"
+name[which(name=="Eagle Mcmahon")]<-"Eagle McMahon"
+name[which(name=="Paul Mcbeth")]<-"Paul McBeth"
+name[which(name=="Nathan Sexton")]<-"Nate Sexton"
+name[which(name=="Nathan Doss")]<-"Nate Doss"
+name[which(name=="Karl johan Nybo")]<-"Karl Johan Nybo"
+name[which(name=="Joshua Anthon")]<-"Josh Anthon"
+name[which(name=="Benjamin Callaway")]<-"Ben Callaway"
+
+#subset coefs for players playing next event
+logregFPO_rank_playing<-logregFPO_rank[logregFPO_rank$Name %in% name,]
+#rank_p_playing_coefs<-rank_p_coefs[logregFPO_rank$Name %in% name]
+
+#calculate win probs
+prob1<-exp(coef(outf)[1] + logregFPO_rank_playing$Elo*coef(outf)[2])/(1+exp(coef(outf)[1] + logregFPO_rank_playing$Elo*coef(outf)[2]))
+
+prob_win<-prob1/sum(prob1)
+prob_win<-round(prob_win,3)*100
+prob_win[prob_win==0.0]<-"<0.1"
+
+#Win prob table
+win_dataFPO<-data.frame(logregFPO_rank_playing$Name,prob_win,logregFPO_rank_playing$Elo)
+names(win_dataFPO)<-c("Players","Win_Prob","Elo")
+
+write.csv(win_dataFPO,"WinProbFPO.csv")

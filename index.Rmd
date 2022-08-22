@@ -41,6 +41,9 @@ testdataFPO$Year <- as.character(testdataFPO$Year)
 tdataFPO <- SharedData$new(testdataFPO)
 rankFPO <- read.csv("EloRank25FPO.csv")
 rankFPO <- rankFPO[,-1]
+winprobFPO <- read.csv("WinProbFPO.csv")
+winprobFPO <- winprobFPO[-1] 
+names(winprobFPO)<-c("Players","Win Prob (%)","Elo")
 ```
 
 Top-25
@@ -141,10 +144,23 @@ Column {data-width=20}
 Column {data-width=380}
 -----------------------------------------------------------------------
 <br>
+<br>
 
 Methodology:
 
-These win probabilities are experimental.  The probabilities are generated using a [logistic regression](https://en.wikipedia.org/wiki/Logistic_regression) with only two explanatory variables: Elo rating and player.  Ricky Wysocki's win probability is high because his Elo rating is high and he wins a lot.  Gannon Buhr's win probability is lower than expected given his rating because he has yet to win an Elite Series event.
+These win probabilities are experimental.  The probabilities are generated using a [logistic regression](https://en.wikipedia.org/wiki/Logistic_regression) and are based exclusively on player Elo rating.  The better a rating the better the probability of winning an event.   
+
+Below is a plot of win probability by Elo rating.  The probability follows a sigmoidal curve.  FLoat cursor over points to see player name, rating, and win probability.
+
+```{r}
+g <- ggplot(winprob,aes(Elo,`Win Prob (%)`,group=Players)) + 
+  geom_point(aes(color=Players)) +
+  ylab("Win Prob (%)")
+
+ggplotly(g,tooltip = c("x", "y","group"))%>%
+    layout(showlegend = F)
+```
+
 
 
 Top-25 (FPO)
@@ -223,6 +239,46 @@ ggplotly(gFPO,tooltip = c("x", "y", "group"))%>%
 ```
 
 
+Win probabilities (FPO)
+=======================================================================
+
+Column {data-width=400}
+-----------------------------------------------------------------------
+
+Win probabilities for the next DGPT or Major event. 
+
+```{r}
+winprobFPO %>%
+  kbl() %>%
+  kable_styling()
+```
+
+
+Column {data-width=20}
+-----------------------------------------------------------------------
+
+Column {data-width=380}
+-----------------------------------------------------------------------
+<br>
+<br>
+
+Methodology:
+
+These win probabilities are experimental.  The probabilities are generated using a [logistic regression](https://en.wikipedia.org/wiki/Logistic_regression) and are based exclusively on player Elo rating.  The better a rating the better the probability of winning an event.   
+
+Below is a plot of win probability by Elo rating.  The probability follows a sigmoidal curve.  FLoat cursor over points to see player name, rating, and win probability.
+
+```{r}
+g <- ggplot(winprobFPO,aes(Elo,`Win Prob (%)`,group=Players)) + 
+  geom_point(aes(color=Players)) +
+  ylab("Win Prob (%)")
+
+ggplotly(g,tooltip = c("x", "y","group"))%>%
+    layout(showlegend = F)
+```
+
+
+
 Methodology
 =======================================================================
 
@@ -234,6 +290,8 @@ The two equations below, which I use for this metric, are pretty much the standa
 
 $$ Elo_i=Elo_{i-1}-K*MS*(S-ES)$$
 $$ES=\frac{1}{(10^{-(Elo_n-\overline{Elo})/400}+1)}$$
+
+*S* is a standardardized actual score that varies between 1 (best score of the round) and 0 (worst score of the round).
 
 *MS* (margin stabilizer) is an additional (and novel) multiplier that influences how much ratings change per round.  However, unlike k-factor, which is the same for all players, the MS value is different for each player and based on how a player's rating compares to the average rating of the field.  If a player's rating is low compared to the field, a very good round will cause their rating to go up a lot, but a bad round will not cause their rating to decrease.  The opposite is true for players with high ratings.  So it has the largest effect at the margins, hence the name.
 

@@ -67,10 +67,11 @@ write.csv(logreg_rank,"EloRank25.csv")
 ## win probs for ratings and players
 logreg_prob<-subset(logreg,logreg$year>=2020 & logreg$E>1700)
 logreg_prob$P[logreg_prob$P!=1]<-0
-outf<-glm(P~E+name,data=logreg_prob,family=binomial)
+outf<-glm(P~E,data=logreg_prob,family=binomial)
 summary(outf)
 
 ## extract coefs for players
+#not using these for now (could be framework for code needed later)
 mod_p_coefs<-coef(outf)[-c(1:2)]
 mod_p_names<-substr(names(coef(outf)[-c(1:2)]),5,length(names(coef(outf)[-c(1:2)])))
 names(mod_p_coefs)<-mod_p_names
@@ -81,7 +82,7 @@ rank_p_coefs<-mod_p_coefs[match(logreg_rank$Name,names(mod_p_coefs))]
 require(rvest)
 
 ##### PDGA event number MUST CHANGE EACH TIME #####
-eventnum<-55592
+eventnum<-55460
 ###################################################
 
 
@@ -101,24 +102,17 @@ name[which(name=="Benjamin Callaway")]<-"Ben Callaway"
 
 #subset coefs for players playing next event
 logreg_rank_playing<-logreg_rank[logreg_rank$Name %in% name,]
-rank_p_playing_coefs<-rank_p_coefs[logreg_rank$Name %in% name]
+#rank_p_playing_coefs<-rank_p_coefs[logreg_rank$Name %in% name]
 
 #calculate win probs
-prob1<-exp(coef(outf)[1] + logreg_rank_playing$Elo*coef(outf)[2] + rank_p_playing_coefs)/(1+exp(coef(outf)[1] + logreg_rank_playing$Elo*coef(outf)[2] + rank_p_playing_coefs))
+prob1<-exp(coef(outf)[1] + logreg_rank_playing$Elo*coef(outf)[2])/(1+exp(coef(outf)[1] + logreg_rank_playing$Elo*coef(outf)[2]))
 
 prob_win<-prob1/sum(prob1)
 prob_win<-round(prob_win,3)*100
+prob_win[prob_win==0.0]<-"<0.1"
 
 #Win prob table
-win_data<-data.frame(names(prob_win),as.numeric(prob_win),logreg_rank_playing$Elo)
+win_data<-data.frame(logreg_rank_playing$Name,prob_win,logreg_rank_playing$Elo)
 names(win_data)<-c("Players","Win_Prob","Elo")
 
 write.csv(win_data,"WinProb.csv")
-
-datatable(win_data,
-          class = "compact cell-border",
-          rownames = FALSE,
-          options = list(order = list(1, "desc"),
-                         autoWidth = FALSE,
-                         pageLength = 25,
-                         columnDefs = list(list(className = 'dt-center', targets = 1:2))))
