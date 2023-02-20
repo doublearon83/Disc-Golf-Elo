@@ -82,7 +82,7 @@ rank_p_coefs<-mod_p_coefs[match(logreg_rank$Name,names(mod_p_coefs))]
 require(rvest)
 
 ##### PDGA event number MUST CHANGE EACH TIME #####
-eventnum<-55460
+eventnum<-65206
 ###################################################
 
 

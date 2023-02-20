@@ -1,6 +1,5 @@
 "","Name","Event","Year","Date","Elo","dElo"
 "207","Jennifer Allen","Memorial",2018,2018-02-28,1535.2,11.8
-"218","Kona Star Panis","Memorial",2018,2018-02-28,1517,3.1
 "220","Paige Pierce","Memorial",2018,2018-02-28,1561.6,32.3
 "225","Lisa Fajkus","Memorial",2018,2018-02-28,1540.2,21.7
 "226","Rebecca Cox","Memorial",2018,2018-02-28,1508.5,8.2
@@ -15,7 +14,6 @@
 "445","Catrina Allen","Waco",2018,2018-03-15,1551.3,9.1
 "456","Jessica Weese","Waco",2018,2018-03-15,1547.1,10.9
 "792","Jennifer Allen","Jonesboro",2018,2018-04-06,1554.8,19.5
-"803","Kona Star Panis","Jonesboro",2018,2018-04-06,1525.1,8
 "805","Paige Pierce","Jonesboro",2018,2018-04-06,1598.2,18.8
 "810","Lisa Fajkus","Jonesboro",2018,2018-04-06,1555.1,1.4
 "811","Rebecca Cox","Jonesboro",2018,2018-04-06,1536.6,12.1
@@ -24,7 +22,6 @@
 "846","Jessica Weese","Jonesboro",2018,2018-04-06,1555.4,8.3
 "872","Madison Walker","Jonesboro",2018,2018-04-06,1548.6,20.3
 "1377","Jennifer Allen","DDO",2018,2018-04-26,1552.1,-2.7
-"1388","Kona Star Panis","DDO",2018,2018-04-26,1535.5,10.4
 "1390","Paige Pierce","DDO",2018,2018-04-26,1611.7,13.5
 "1395","Lisa Fajkus","DDO",2018,2018-04-26,1572,16.9
 "1396","Rebecca Cox","DDO",2018,2018-04-26,1535.9,-0.6
@@ -33,21 +30,18 @@
 "1431","Jessica Weese","DDO",2018,2018-04-26,1568,12.6
 "1457","Madison Walker","DDO",2018,2018-04-26,1556.8,8.2
 "1767","Jennifer Allen","Masters Cup",2018,2018-05-18,1567,14.9
-"1778","Kona Star Panis","Masters Cup",2018,2018-05-18,1545.7,10.2
 "1780","Paige Pierce","Masters Cup",2018,2018-05-18,1628.3,16.6
 "1785","Lisa Fajkus","Masters Cup",2018,2018-05-18,1585.9,13.9
 "1791","Sarah Hokom","Masters Cup",2018,2018-05-18,1596.2,7.4
 "1810","Catrina Allen","Masters Cup",2018,2018-05-18,1578.4,14.9
 "1821","Jessica Weese","Masters Cup",2018,2018-05-18,1574.1,6.1
 "1847","Madison Walker","Masters Cup",2018,2018-05-18,1570.7,14
-"1973","Kona Star Panis","San Francisco",2018,2018-05-25,1552.3,6.7
 "1975","Paige Pierce","San Francisco",2018,2018-05-25,1638.5,10.1
 "1980","Lisa Fajkus","San Francisco",2018,2018-05-25,1592.6,6.7
 "1986","Sarah Hokom","San Francisco",2018,2018-05-25,1613.8,17.6
 "2005","Catrina Allen","San Francisco",2018,2018-05-25,1592.2,13.8
 "2016","Jessica Weese","San Francisco",2018,2018-05-25,1588.2,14.1
 "2042","Madison Walker","San Francisco",2018,2018-05-25,1581.2,10.5
-"2363","Kona Star Panis","Beaver",2018,2018-06-08,1557.6,5.2
 "2365","Paige Pierce","Beaver",2018,2018-06-08,1653.5,15.1
 "2370","Lisa Fajkus","Beaver",2018,2018-06-08,1600.1,7.5
 "2376","Sarah Hokom","Beaver",2018,2018-06-08,1622.5,8.7
@@ -57,7 +51,6 @@
 "2680","Kristin Tattar","Alutaguse",2018,2018-06-15,1528,23.8
 "2841","Eveliina Salonen","Sula",2018,2018-06-22,1542.5,23.7
 "2875","Kristin Tattar","Sula",2018,2018-06-22,1542.6,14.6
-"2948","Kona Star Panis","Utah",2018,2018-06-22,1571,13.4
 "2955","Lisa Fajkus","Utah",2018,2018-06-22,1611.8,11.8
 "2980","Catrina Allen","Utah",2018,2018-06-22,1625.6,15.1
 "2991","Jessica Weese","Utah",2018,2018-06-22,1596,15.1
@@ -75,7 +68,6 @@
 "3621","Eveliina Salonen","Konopiste",2018,2018-07-12,1585.3,22.5
 "3655","Kristin Tattar","Konopiste",2018,2018-07-12,1572.3,9.4
 "3850","Kristin Tattar","Ale",2018,2018-07-20,1594.9,22.5
-"3923","Kona Star Panis","Idlewild",2018,2018-07-20,1568.3,-2.7
 "3925","Paige Pierce","Idlewild",2018,2018-07-20,1676.2,13
 "3931","Rebecca Cox","Idlewild",2018,2018-07-20,1560.3,14.1
 "3936","Sarah Hokom","Idlewild",2018,2018-07-20,1647.9,12.5
@@ -83,7 +75,6 @@
 "3966","Jessica Weese","Idlewild",2018,2018-07-20,1611.4,6.6
 "3992","Madison Walker","Idlewild",2018,2018-07-20,1586.3,5.8
 "4075","Missy Gannon","Idlewild",2018,2018-07-20,1491.2,-1.9
-"4118","Kona Star Panis","Ledgestone",2018,2018-08-09,1566.9,-1.4
 "4120","Paige Pierce","Ledgestone",2018,2018-08-09,1679,2.8
 "4125","Lisa Fajkus","Ledgestone",2018,2018-08-09,1619.5,7.7
 "4126","Rebecca Cox","Ledgestone",2018,2018-08-09,1575,14.7
@@ -95,7 +86,6 @@
 "4381","Henna Blomroos","European Disc Golf Championships",2018,2018-08-15,1596.8,24.5
 "4401","Eveliina Salonen","European Disc Golf Championships",2018,2018-08-15,1607.8,22.5
 "4435","Kristin Tattar","European Disc Golf Championships",2018,2018-08-15,1611.4,16.5
-"4508","Kona Star Panis","MVP",2018,2018-08-24,1572.2,5.3
 "4510","Paige Pierce","MVP",2018,2018-08-24,1683,3.9
 "4515","Lisa Fajkus","MVP",2018,2018-08-24,1631.3,11.8
 "4516","Rebecca Cox","MVP",2018,2018-08-24,1590.5,15.5
@@ -106,7 +96,6 @@
 "4660","Missy Gannon","MVP",2018,2018-08-24,1526.1,12.3
 "4771","Henna Blomroos","Nokia",2018,2018-09-05,1606.8,10
 "4791","Eveliina Salonen","Nokia",2018,2018-09-05,1624.1,16.3
-"4898","Kona Star Panis","World",2018,2018-09-05,1571.2,-1
 "4900","Paige Pierce","World",2018,2018-09-05,1691,8
 "4905","Lisa Fajkus","World",2018,2018-09-05,1638.8,7.5
 "4906","Rebecca Cox","World",2018,2018-09-05,1606.5,16
@@ -117,7 +106,6 @@
 "5020","Kristin Tattar","World",2018,2018-09-05,1619.9,8.6
 "5041","Hailey King","World",2018,2018-09-05,1540.7,18.6
 "5050","Missy Gannon","World",2018,2018-09-05,1537.5,11.4
-"5093","Kona Star Panis","Delaware",2018,2018-09-14,1569.6,-1.6
 "5106","Sarah Hokom","Delaware",2018,2018-09-14,1694.6,12
 "5125","Catrina Allen","Delaware",2018,2018-09-14,1668.1,8.2
 "5215","Kristin Tattar","Delaware",2018,2018-09-14,1634.3,14.3
@@ -130,7 +118,6 @@
 "5410","Kristin Tattar","USWDGC",2018,2018-09-21,1644,9.7
 "5431","Hailey King","USWDGC",2018,2018-09-21,1553.6,12.9
 "5440","Missy Gannon","USWDGC",2018,2018-09-21,1525.9,-11.6
-"5483","Kona Star Panis","HOFC",2018,2018-10-12,1572,2.4
 "5485","Paige Pierce","HOFC",2018,2018-10-12,1707.4,7.7
 "5490","Lisa Fajkus","HOFC",2018,2018-10-12,1640.2,3.2
 "5496","Sarah Hokom","HOFC",2018,2018-10-12,1695.6,6.8
@@ -139,7 +126,6 @@
 "5552","Madison Walker","HOFC",2018,2018-10-12,1606.6,-14.7
 "5635","Missy Gannon","HOFC",2018,2018-10-12,1522,-3.9
 "5660","Jennifer Allen","LVC",2019,2019-02-21,1576.6,16.3
-"5666","Kona Star Panis","LVC",2019,2019-02-21,1552.7,-12.1
 "5667","Paige Pierce","LVC",2019,2019-02-21,1690,3.3
 "5672","Lisa Fajkus","LVC",2019,2019-02-21,1626.2,0
 "5673","Rebecca Cox","LVC",2019,2019-02-21,1594.9,-0.9
@@ -149,7 +135,6 @@
 "5727","Madison Walker","LVC",2019,2019-02-21,1600.2,4.2
 "5743","Eveliina Salonen","LVC",2019,2019-02-21,1613.5,1.8
 "5848","Jennifer Allen","Memorial",2019,2019-02-28,1587.8,11.2
-"5854","Kona Star Panis","Memorial",2019,2019-02-28,1552.4,-0.4
 "5855","Paige Pierce","Memorial",2019,2019-02-28,1702.1,12.1
 "5860","Lisa Fajkus","Memorial",2019,2019-02-28,1626.7,0.5
 "5861","Rebecca Cox","Memorial",2019,2019-02-28,1610.5,15.6
@@ -160,7 +145,6 @@
 "5931","Eveliina Salonen","Memorial",2019,2019-02-28,1639.1,25.6
 "5989","Hailey King","Memorial",2019,2019-02-28,1555.2,6.9
 "5998","Missy Gannon","Memorial",2019,2019-02-28,1538.4,18.6
-"6042","Kona Star Panis","Waco",2019,2019-03-14,1562.6,10.3
 "6043","Paige Pierce","Waco",2019,2019-03-14,1711,8.9
 "6048","Lisa Fajkus","Waco",2019,2019-03-14,1634.7,8
 "6049","Rebecca Cox","Waco",2019,2019-03-14,1623.4,12.9
@@ -169,7 +153,6 @@
 "6080","Jessica Weese","Waco",2019,2019-03-14,1653.9,6
 "6113","Alexis Mandujano","Waco",2019,2019-03-14,1505.1,5.1
 "6224","Jennifer Allen","Jonesboro",2019,2019-04-12,1592.5,4.8
-"6230","Kona Star Panis","Jonesboro",2019,2019-04-12,1563.8,1.2
 "6231","Paige Pierce","Jonesboro",2019,2019-04-12,1720.5,9.5
 "6236","Lisa Fajkus","Jonesboro",2019,2019-04-12,1629.3,-5.4
 "6237","Rebecca Cox","Jonesboro",2019,2019-04-12,1635.8,12.4
@@ -178,11 +161,11 @@
 "6268","Jessica Weese","Jonesboro",2019,2019-04-12,1659,5
 "6290","Henna Blomroos","Jonesboro",2019,2019-04-12,1613.9,17.8
 "6291","Madison Walker","Jonesboro",2019,2019-04-12,1603.5,-0.2
+"6317","Deann Carey","Jonesboro",2019,2019-04-12,1487.4,-9.6
 "6365","Hailey King","Jonesboro",2019,2019-04-12,1558.1,2.9
 "6374","Missy Gannon","Jonesboro",2019,2019-04-12,1543.2,4.8
 "6526","Kristin Tattar","Dutch",2019,2019-04-20,1649.9,20.3
 "6600","Jennifer Allen","DDO",2019,2019-04-24,1609.5,16.9
-"6606","Kona Star Panis","DDO",2019,2019-04-24,1570.3,6.5
 "6607","Paige Pierce","DDO",2019,2019-04-24,1733.2,12.7
 "6612","Lisa Fajkus","DDO",2019,2019-04-24,1633.1,3.9
 "6613","Rebecca Cox","DDO",2019,2019-04-24,1635.3,-0.5
@@ -190,24 +173,22 @@
 "6633","Catrina Allen","DDO",2019,2019-04-24,1716.1,11.9
 "6644","Jessica Weese","DDO",2019,2019-04-24,1661.3,2.3
 "6667","Madison Walker","DDO",2019,2019-04-24,1612.7,9.1
-"6670","Emily Beach","DDO",2019,2019-04-24,1528.7,11.5
 "6741","Hailey King","DDO",2019,2019-04-24,1568,9.9
 "6750","Missy Gannon","DDO",2019,2019-04-24,1550.5,7.3
 "6771","Kat Mertsch","DDO",2019,2019-04-24,1487.2,-5.9
 "6902","Kristin Tattar","Bluebell",2019,2019-05-03,1661.5,11.6
-"6982","Kona Star Panis","San Francisco",2019,2019-05-10,1580.1,9.8
 "6983","Paige Pierce","San Francisco",2019,2019-05-10,1739.8,6.6
 "6989","Rebecca Cox","San Francisco",2019,2019-05-10,1638.4,3.1
 "6994","Sarah Hokom","San Francisco",2019,2019-05-10,1699,3.7
 "7009","Catrina Allen","San Francisco",2019,2019-05-10,1727.3,11.2
 "7020","Jessica Weese","San Francisco",2019,2019-05-10,1664,2.8
 "7043","Madison Walker","San Francisco",2019,2019-05-10,1624,11.4
+"7069","Deann Carey","San Francisco",2019,2019-05-10,1494,6.6
 "7230","Henna Blomroos","Helsinki",2019,2019-05-10,1623.7,9.8
 "7247","Eveliina Salonen","Helsinki",2019,2019-05-10,1652.3,13.2
 "7256","Heidi Laine","Helsinki",2019,2019-05-10,1532.3,20.9
 "7278","Kristin Tattar","Helsinki",2019,2019-05-10,1673.9,12.4
 "7352","Jennifer Allen","Masters Cup",2019,2019-05-18,1618.4,8.9
-"7358","Kona Star Panis","Masters Cup",2019,2019-05-18,1573.6,-6.5
 "7359","Paige Pierce","Masters Cup",2019,2019-05-18,1746.5,6.7
 "7364","Lisa Fajkus","Masters Cup",2019,2019-05-18,1633.6,0.5
 "7365","Rebecca Cox","Masters Cup",2019,2019-05-18,1649.6,11.2
@@ -215,8 +196,8 @@
 "7385","Catrina Allen","Masters Cup",2019,2019-05-18,1738.4,11.1
 "7396","Jessica Weese","Masters Cup",2019,2019-05-18,1658.8,-5.2
 "7419","Madison Walker","Masters Cup",2019,2019-05-18,1638.1,14
+"7445","Deann Carey","Masters Cup",2019,2019-05-18,1492.7,-1.3
 "7654","Kristin Tattar","Kokkedal",2019,2019-05-18,1689.7,15.8
-"7734","Kona Star Panis","Portland",2019,2019-05-25,1589.3,15.7
 "7735","Paige Pierce","Portland",2019,2019-05-25,1755.8,9.4
 "7740","Lisa Fajkus","Portland",2019,2019-05-25,1646.6,13
 "7741","Rebecca Cox","Portland",2019,2019-05-25,1661.1,11.5
@@ -227,7 +208,6 @@
 "7869","Hailey King","Portland",2019,2019-05-25,1575.6,7.7
 "7878","Missy Gannon","Portland",2019,2019-05-25,1562.3,11.7
 "7916","Jennifer Allen","Beaver",2019,2019-06-07,1632.6,14.2
-"7922","Kona Star Panis","Beaver",2019,2019-06-07,1580.7,-8.6
 "7923","Paige Pierce","Beaver",2019,2019-06-07,1759,3.2
 "7928","Lisa Fajkus","Beaver",2019,2019-06-07,1641.6,-5.1
 "7929","Rebecca Cox","Beaver",2019,2019-06-07,1645.3,-15.8
@@ -240,7 +220,6 @@
 "8066","Missy Gannon","Beaver",2019,2019-06-07,1566.4,4.1
 "8218","Kristin Tattar","Sula",2019,2019-06-07,1700.2,10.5
 "8480","Jennifer Allen","Ledgestone",2019,2019-06-21,1640.8,8.2
-"8486","Kona Star Panis","Ledgestone",2019,2019-06-21,1568.5,-12.3
 "8487","Paige Pierce","Ledgestone",2019,2019-06-21,1767,7.9
 "8492","Lisa Fajkus","Ledgestone",2019,2019-06-21,1646.2,4.7
 "8493","Rebecca Cox","Ledgestone",2019,2019-06-21,1642.4,-2.9
@@ -248,12 +227,11 @@
 "8513","Catrina Allen","Ledgestone",2019,2019-06-21,1759.2,6.6
 "8524","Jessica Weese","Ledgestone",2019,2019-06-21,1644.1,-2
 "8547","Madison Walker","Ledgestone",2019,2019-06-21,1647.6,-1.7
-"8550","Emily Beach","Ledgestone",2019,2019-06-21,1538.2,9.6
+"8573","Deann Carey","Ledgestone",2019,2019-06-21,1499.4,6.7
 "8621","Hailey King","Ledgestone",2019,2019-06-21,1594.2,10.6
 "8630","Missy Gannon","Ledgestone",2019,2019-06-21,1577.1,10.7
 "8760","Heidi Laine","Tyyni",2019,2019-06-27,1551.1,18.7
 "8782","Kristin Tattar","Tyyni",2019,2019-06-27,1707.7,7.5
-"8862","Kona Star Panis","DGLO",2019,2019-07-05,1573.1,4.6
 "8863","Paige Pierce","DGLO",2019,2019-07-05,1775.3,8.4
 "8868","Lisa Fajkus","DGLO",2019,2019-07-05,1656.3,10.1
 "8869","Rebecca Cox","DGLO",2019,2019-07-05,1646.7,4.3
@@ -277,7 +255,6 @@
 "9487","Madison Walker","Idlewild",2019,2019-07-26,1670.6,14.4
 "9561","Hailey King","Idlewild",2019,2019-07-26,1605.4,11.2
 "9570","Missy Gannon","Idlewild",2019,2019-07-26,1577.2,0.1
-"9614","Kona Star Panis","World",2019,2019-08-13,1573.4,0.4
 "9615","Paige Pierce","World",2019,2019-08-13,1799.4,5
 "9620","Lisa Fajkus","World",2019,2019-08-13,1671.3,5.6
 "9621","Rebecca Cox","World",2019,2019-08-13,1661,10.8
@@ -286,61 +263,57 @@
 "9652","Jessica Weese","World",2019,2019-08-13,1654.2,-6.7
 "9674","Henna Blomroos","World",2019,2019-08-13,1652.5,13.8
 "9675","Madison Walker","World",2019,2019-08-13,1670.5,-0.1
-"9678","Emily Beach","World",2019,2019-08-13,1550,11.7
 "9684","Valerie Mandujano","World",2019,2019-08-13,1546.7,24.3
 "9691","Eveliina Salonen","World",2019,2019-08-13,1672.7,15.7
 "9722","Kristin Tattar","World",2019,2019-08-13,1713.4,6.9
 "9749","Hailey King","World",2019,2019-08-13,1609.9,4.5
 "9758","Missy Gannon","World",2019,2019-08-13,1591.4,14.2
-"9802","Kona Star Panis","Delaware",2019,2019-08-23,1560.1,-13.4
 "9814","Sarah Hokom","Delaware",2019,2019-08-23,1710.9,4.7
 "9829","Catrina Allen","Delaware",2019,2019-08-23,1782,5.7
 "9840","Jessica Weese","Delaware",2019,2019-08-23,1658.6,4.4
 "9910","Kristin Tattar","Delaware",2019,2019-08-23,1720.8,7.5
-"9990","Kona Star Panis","MVP",2019,2019-08-30,1570.8,10.8
 "9991","Paige Pierce","MVP",2019,2019-08-30,1807.2,7.8
 "9996","Lisa Fajkus","MVP",2019,2019-08-30,1677.8,6.5
 "9997","Rebecca Cox","MVP",2019,2019-08-30,1667.2,6.1
 "10002","Sarah Hokom","MVP",2019,2019-08-30,1720.8,9.9
 "10017","Catrina Allen","MVP",2019,2019-08-30,1785,3
 "10028","Jessica Weese","MVP",2019,2019-08-30,1661.8,3.2
+"10077","Deann Carey","MVP",2019,2019-08-30,1512.8,13.4
 "10098","Kristin Tattar","MVP",2019,2019-08-30,1730.1,9.3
 "10125","Hailey King","MVP",2019,2019-08-30,1621.8,11.9
 "10134","Missy Gannon","MVP",2019,2019-08-30,1603.9,12.5
 "10238","Henna Blomroos","Nokia",2019,2019-09-06,1666.7,14.2
 "10255","Eveliina Salonen","Nokia",2019,2019-09-06,1682.2,9.5
 "10264","Heidi Laine","Nokia",2019,2019-09-06,1564.5,5.8
-"10366","Kona Star Panis","Green",2019,2019-09-12,1585.5,14.7
 "10367","Paige Pierce","Green",2019,2019-09-12,1809.5,2.2
 "10372","Lisa Fajkus","Green",2019,2019-09-12,1676,-1.8
 "10373","Rebecca Cox","Green",2019,2019-09-12,1682.1,14.9
 "10378","Sarah Hokom","Green",2019,2019-09-12,1736.9,16.1
 "10393","Catrina Allen","Green",2019,2019-09-12,1770.5,-14.5
 "10404","Jessica Weese","Green",2019,2019-09-12,1660.3,-1.5
+"10453","Deann Carey","Green",2019,2019-09-12,1521.2,8.4
 "10474","Kristin Tattar","Green",2019,2019-09-12,1743.1,13
 "10501","Hailey King","Green",2019,2019-09-12,1639.5,17.7
 "10510","Missy Gannon","Green",2019,2019-09-12,1606.8,2.9
-"10554","Kona Star Panis","USWDGC",2019,2019-09-20,1581.8,-3.8
 "10555","Paige Pierce","USWDGC",2019,2019-09-20,1813.5,4
 "10560","Lisa Fajkus","USWDGC",2019,2019-09-20,1679.1,3.1
 "10561","Rebecca Cox","USWDGC",2019,2019-09-20,1691.2,9.1
 "10566","Sarah Hokom","USWDGC",2019,2019-09-20,1742.2,5.3
 "10581","Catrina Allen","USWDGC",2019,2019-09-20,1773.7,3.2
 "10592","Jessica Weese","USWDGC",2019,2019-09-20,1667.6,7.3
+"10641","Deann Carey","USWDGC",2019,2019-09-20,1542.9,21.6
 "10662","Kristin Tattar","USWDGC",2019,2019-09-20,1752.4,9.3
 "10689","Hailey King","USWDGC",2019,2019-09-20,1642,2.5
 "10698","Missy Gannon","USWDGC",2019,2019-09-20,1614.6,7.8
-"10722","Heather Young","USWDGC",2019,2019-09-20,1559.1,21.4
-"10742","Kona Star Panis","HOFC",2019,2019-10-11,1588.1,6.3
+"10728","Natalie Ryan","USWDGC",2019,2019-09-20,1503.2,3.2
 "10743","Paige Pierce","HOFC",2019,2019-10-11,1816.9,3.4
 "10748","Lisa Fajkus","HOFC",2019,2019-10-11,1682.4,3.3
 "10754","Sarah Hokom","HOFC",2019,2019-10-11,1751.8,9.5
 "10769","Catrina Allen","HOFC",2019,2019-10-11,1777,3.3
 "10780","Jessica Weese","HOFC",2019,2019-10-11,1673.3,5.7
 "10803","Madison Walker","HOFC",2019,2019-10-11,1655.4,-15.1
-"10910","Heather Young","HOFC",2019,2019-10-11,1565.8,6.7
+"10829","Deann Carey","HOFC",2019,2019-10-11,1539.6,-3.3
 "10923","Jennifer Allen","Memorial",2020,2020-02-27,1642.9,16.1
-"10927","Kona Star Panis","Memorial",2020,2020-02-27,1586.2,6.9
 "10928","Paige Pierce","Memorial",2020,2020-02-27,1796.8,11.6
 "10932","Rebecca Cox","Memorial",2020,2020-02-27,1670.9,-1.2
 "10942","Catrina Allen","Memorial",2020,2020-02-27,1736.9,-12.4
@@ -350,7 +323,6 @@
 "10971","Eveliina Salonen","Memorial",2020,2020-02-27,1670.6,6.6
 "11003","Hailey King","Memorial",2020,2020-02-27,1633.4,5.6
 "11007","Missy Gannon","Memorial",2020,2020-02-27,1603.5,0.4
-"11043","Kona Star Panis","Waco",2020,2020-03-12,1603.1,16.9
 "11044","Paige Pierce","Waco",2020,2020-03-12,1792.9,-4
 "11047","Lisa Fajkus","Waco",2020,2020-03-12,1663.8,-0.3
 "11048","Rebecca Cox","Waco",2020,2020-03-12,1679.8,8.9
@@ -358,44 +330,41 @@
 "11058","Catrina Allen","Waco",2020,2020-03-12,1741.8,4.9
 "11064","Jessica Weese","Waco",2020,2020-03-12,1646.9,4.7
 "11077","Henna Blomroos","Waco",2020,2020-03-12,1674.1,9.5
-"11080","Emily Beach","Waco",2020,2020-03-12,1548.6,3.6
 "11083","Valerie Mandujano","Waco",2020,2020-03-12,1563.9,21.9
 "11087","Eveliina Salonen","Waco",2020,2020-03-12,1686.8,16.2
 "11119","Hailey King","Waco",2020,2020-03-12,1642.7,9.3
 "11123","Missy Gannon","Waco",2020,2020-03-12,1617.5,14
 "11137","Kat Mertsch","Waco",2020,2020-03-12,1489.8,1.3
-"11139","Heather Young","Waco",2020,2020-03-12,1580.7,21.5
-"11159","Kona Star Panis","DDO",2020,2020-06-26,1596,-7.1
 "11160","Paige Pierce","DDO",2020,2020-06-26,1800.4,7.5
 "11164","Rebecca Cox","DDO",2020,2020-06-26,1659.8,-20
 "11174","Catrina Allen","DDO",2020,2020-06-26,1734.4,-7.4
+"11208","Deann Carey","DDO",2020,2020-06-26,1534.2,-1.4
 "11239","Missy Gannon","DDO",2020,2020-06-26,1629.4,11.9
 "11309","Henna Blomroos","Helsinki",2020,2020-06-26,1684.1,10
 "11319","Eveliina Salonen","Helsinki",2020,2020-06-26,1696.9,10.1
 "11323","Heidi Laine","Helsinki",2020,2020-06-26,1561.9,3.8
-"11391","Kona Star Panis","Preserve",2020,2020-07-03,1600,4
 "11392","Paige Pierce","Preserve",2020,2020-07-03,1809.6,9.2
 "11395","Lisa Fajkus","Preserve",2020,2020-07-03,1651.2,-12.6
 "11396","Rebecca Cox","Preserve",2020,2020-07-03,1653.9,-5.9
 "11400","Sarah Hokom","Preserve",2020,2020-07-03,1730.1,-1.5
 "11406","Catrina Allen","Preserve",2020,2020-07-03,1739.5,5.1
 "11412","Jessica Weese","Preserve",2020,2020-07-03,1637.6,-9.3
+"11440","Deann Carey","Preserve",2020,2020-07-03,1527.9,-6.3
 "11471","Missy Gannon","Preserve",2020,2020-07-03,1640.9,11.5
 "11485","Kat Mertsch","Preserve",2020,2020-07-03,1497.8,8
 "11541","Henna Blomroos","Turku",2020,2020-07-10,1690.8,6.7
 "11551","Eveliina Salonen","Turku",2020,2020-07-10,1709.3,12.4
 "11568","Kristin Tattar","Turku",2020,2020-07-10,1736.7,9.5
-"11623","Kona Star Panis","DGLO",2020,2020-07-24,1613.8,13.8
 "11624","Paige Pierce","DGLO",2020,2020-07-24,1816.8,7.2
 "11627","Lisa Fajkus","DGLO",2020,2020-07-24,1659.2,7.9
 "11628","Rebecca Cox","DGLO",2020,2020-07-24,1653.2,-0.7
 "11632","Sarah Hokom","DGLO",2020,2020-07-24,1736.3,6.2
 "11638","Catrina Allen","DGLO",2020,2020-07-24,1744.1,4.6
 "11644","Jessica Weese","DGLO",2020,2020-07-24,1650.8,13.2
+"11672","Deann Carey","DGLO",2020,2020-07-24,1548.3,20.3
 "11699","Hailey King","DGLO",2020,2020-07-24,1654.9,12.2
 "11703","Missy Gannon","DGLO",2020,2020-07-24,1651.6,10.7
 "11717","Kat Mertsch","DGLO",2020,2020-07-24,1522.1,24.3
-"11719","Heather Young","DGLO",2020,2020-07-24,1598.4,17.7
 "11800","Kristin Tattar","Alutaguse",2020,2020-07-24,1745.7,9
 "11889","Henna Blomroos","Tampere",2020,2020-07-24,1697.5,6.7
 "11899","Eveliina Salonen","Tampere",2020,2020-07-24,1720,10.7
@@ -404,7 +373,6 @@
 "12015","Eveliina Salonen","Kuopio",2020,2020-07-31,1733.3,13.4
 "12019","Heidi Laine","Kuopio",2020,2020-07-31,1604.7,34.5
 "12032","Kristin Tattar","Kuopio",2020,2020-07-31,1755.6,9.9
-"12087","Kona Star Panis","Idlewild",2020,2020-08-07,1614.4,0.5
 "12088","Paige Pierce","Idlewild",2020,2020-08-07,1818.9,2.2
 "12091","Lisa Fajkus","Idlewild",2020,2020-08-07,1661.8,2.6
 "12092","Rebecca Cox","Idlewild",2020,2020-08-07,1654,0.8
@@ -413,24 +381,21 @@
 "12108","Jessica Weese","Idlewild",2020,2020-08-07,1660.7,9.9
 "12127","Valerie Mandujano","Idlewild",2020,2020-08-07,1583.4,19.5
 "12128","Alexis Mandujano","Idlewild",2020,2020-08-07,1534.4,29.8
+"12136","Deann Carey","Idlewild",2020,2020-08-07,1561.8,13.5
 "12167","Missy Gannon","Idlewild",2020,2020-08-07,1661.9,10.3
-"12183","Heather Young","Idlewild",2020,2020-08-07,1608,9.6
 "12199","Jennifer Allen","Ledgestone",2020,2020-08-13,1649.5,6.7
-"12203","Kona Star Panis","Ledgestone",2020,2020-08-13,1612.4,-1.9
 "12204","Paige Pierce","Ledgestone",2020,2020-08-13,1822.1,3.1
 "12207","Lisa Fajkus","Ledgestone",2020,2020-08-13,1670.6,8.8
 "12212","Sarah Hokom","Ledgestone",2020,2020-08-13,1745.1,2.2
 "12218","Catrina Allen","Ledgestone",2020,2020-08-13,1759.5,9.9
 "12222","Ohn Scoggins","Ledgestone",2020,2020-08-13,1530.1,26.3
 "12224","Jessica Weese","Ledgestone",2020,2020-08-13,1661.4,0.7
-"12240","Emily Beach","Ledgestone",2020,2020-08-13,1571.3,22.7
 "12243","Valerie Mandujano","Ledgestone",2020,2020-08-13,1601.4,18
 "12244","Alexis Mandujano","Ledgestone",2020,2020-08-13,1554.4,20
+"12252","Deann Carey","Ledgestone",2020,2020-08-13,1570.1,8.3
 "12279","Hailey King","Ledgestone",2020,2020-08-13,1666.7,11.9
 "12283","Missy Gannon","Ledgestone",2020,2020-08-13,1665.5,3.6
 "12297","Kat Mertsch","Ledgestone",2020,2020-08-13,1534.2,12.1
-"12299","Heather Young","Ledgestone",2020,2020-08-13,1627.4,19.5
-"12319","Kona Star Panis","Green",2020,2020-09-03,1625.7,13.3
 "12320","Paige Pierce","Green",2020,2020-09-03,1829.8,7.8
 "12324","Rebecca Cox","Green",2020,2020-09-03,1655.3,1.3
 "12328","Sarah Hokom","Green",2020,2020-09-03,1750.6,5.5
@@ -438,8 +403,6 @@
 "12340","Jessica Weese","Green",2020,2020-09-03,1674.2,12.7
 "12395","Hailey King","Green",2020,2020-09-03,1688,21.3
 "12399","Missy Gannon","Green",2020,2020-09-03,1670.5,5
-"12415","Heather Young","Green",2020,2020-09-03,1638.6,11.2
-"12435","Kona Star Panis","MVP",2020,2020-09-11,1608.7,-17
 "12436","Paige Pierce","MVP",2020,2020-09-11,1837.1,7.2
 "12439","Lisa Fajkus","MVP",2020,2020-09-11,1683.8,13.2
 "12440","Rebecca Cox","MVP",2020,2020-09-11,1656.1,0.7
@@ -448,15 +411,13 @@
 "12456","Jessica Weese","MVP",2020,2020-09-11,1675.4,1.2
 "12511","Hailey King","MVP",2020,2020-09-11,1700.2,12.2
 "12515","Missy Gannon","MVP",2020,2020-09-11,1679.1,8.6
-"12531","Heather Young","MVP",2020,2020-09-11,1657.6,19
 "12552","Paige Pierce","Jonesboro",2020,2020-10-01,1844.4,7.3
 "12566","Catrina Allen","Jonesboro",2020,2020-10-01,1774.8,4.4
 "12572","Jessica Weese","Jonesboro",2020,2020-10-01,1678.2,2.8
-"12588","Emily Beach","Jonesboro",2020,2020-10-01,1578.4,7.1
+"12600","Deann Carey","Jonesboro",2020,2020-10-01,1574.1,4
 "12627","Hailey King","Jonesboro",2020,2020-10-01,1707.4,7.2
 "12631","Missy Gannon","Jonesboro",2020,2020-10-01,1676.7,-2.3
 "12645","Kat Mertsch","Jonesboro",2020,2020-10-01,1537.1,2.9
-"12667","Kona Star Panis","WNC",2020,2020-10-07,1622.8,14.1
 "12668","Paige Pierce","WNC",2020,2020-10-07,1851.3,6.9
 "12671","Lisa Fajkus","WNC",2020,2020-10-07,1676.8,-7
 "12672","Rebecca Cox","WNC",2020,2020-10-07,1659.1,3
@@ -464,12 +425,11 @@
 "12682","Catrina Allen","WNC",2020,2020-10-07,1784.3,9.5
 "12686","Ohn Scoggins","WNC",2020,2020-10-07,1572.2,42.1
 "12688","Jessica Weese","WNC",2020,2020-10-07,1680.5,2.3
+"12716","Deann Carey","WNC",2020,2020-10-07,1575.1,1
 "12743","Hailey King","WNC",2020,2020-10-07,1705.9,-1.5
 "12747","Missy Gannon","WNC",2020,2020-10-07,1678.5,1.7
 "12761","Kat Mertsch","WNC",2020,2020-10-07,1535,-2.1
-"12763","Heather Young","WNC",2020,2020-10-07,1673.1,15.5
 "12782","Jennifer Allen","LVC",2021,2021-02-25,1633.4,-1.2
-"12788","Kona Star Panis","LVC",2021,2021-02-25,1627.5,16.9
 "12790","Paige Pierce","LVC",2021,2021-02-25,1822.8,6.7
 "12794","Lisa Fajkus","LVC",2021,2021-02-25,1663.6,4.5
 "12796","Rebecca Cox","LVC",2021,2021-02-25,1656.4,13.1
@@ -480,10 +440,10 @@
 "12842","Madison Walker","LVC",2021,2021-02-25,1623.2,14.4
 "12850","Valerie Mandujano","LVC",2021,2021-02-25,1610.3,19.1
 "12851","Alexis Mandujano","LVC",2021,2021-02-25,1563,14
+"12865","Deann Carey","LVC",2021,2021-02-25,1577.8,10.2
 "12906","Hailey King","LVC",2021,2021-02-25,1693.7,8.3
 "12921","Missy Gannon","LVC",2021,2021-02-25,1669.9,9.3
 "12948","Kat Mertsch","LVC",2021,2021-02-25,1541.5,10
-"13067","Kona Star Panis","Waco",2021,2021-03-12,1647.7,20.2
 "13069","Paige Pierce","Waco",2021,2021-03-12,1813.3,-9.5
 "13073","Lisa Fajkus","Waco",2021,2021-03-12,1672.3,8.6
 "13075","Rebecca Cox","Waco",2021,2021-03-12,1661.1,4.8
@@ -494,11 +454,10 @@
 "13121","Madison Walker","Waco",2021,2021-03-12,1629.1,6
 "13129","Valerie Mandujano","Waco",2021,2021-03-12,1621.5,11.2
 "13130","Alexis Mandujano","Waco",2021,2021-03-12,1572.2,9.2
+"13144","Deann Carey","Waco",2021,2021-03-12,1571,-6.8
 "13185","Hailey King","Waco",2021,2021-03-12,1694,0.3
 "13200","Missy Gannon","Waco",2021,2021-03-12,1673.2,3.3
 "13227","Kat Mertsch","Waco",2021,2021-03-12,1540.9,-0.6
-"13232","Heather Young","Waco",2021,2021-03-12,1657.6,1.8
-"13346","Kona Star Panis","Texas",2021,2021-03-26,1639,-8.7
 "13348","Paige Pierce","Texas",2021,2021-03-26,1802.8,-10.5
 "13352","Lisa Fajkus","Texas",2021,2021-03-26,1673.7,1.4
 "13354","Rebecca Cox","Texas",2021,2021-03-26,1670.1,9
@@ -509,53 +468,49 @@
 "13408","Valerie Mandujano","Texas",2021,2021-03-26,1633.5,12
 "13409","Alexis Mandujano","Texas",2021,2021-03-26,1591.7,19.6
 "13412","Maria Oliva","Texas",2021,2021-03-26,1562.8,12.2
+"13423","Deann Carey","Texas",2021,2021-03-26,1573.1,2.1
 "13464","Hailey King","Texas",2021,2021-03-26,1704.7,10.7
 "13479","Missy Gannon","Texas",2021,2021-03-26,1681.6,8.4
 "13506","Kat Mertsch","Texas",2021,2021-03-26,1555.3,14.4
-"13511","Heather Young","Texas",2021,2021-03-26,1662.4,4.8
-"13625","Kona Star Panis","Jonesbor",2021,2021-04-16,1647.1,8.1
 "13627","Paige Pierce","Jonesbor",2021,2021-04-16,1806,3.2
 "13633","Rebecca Cox","Jonesbor",2021,2021-04-16,1666.2,-4
 "13638","Sarah Hokom","Jonesbor",2021,2021-04-16,1752.4,6.4
 "13648","Catrina Allen","Jonesbor",2021,2021-04-16,1774.5,9.2
 "13659","Jessica Weese","Jonesbor",2021,2021-04-16,1677.6,-3.2
 "13679","Madison Walker","Jonesbor",2021,2021-04-16,1631.7,2.6
-"13682","Emily Beach","Jonesbor",2021,2021-04-16,1576.7,6.2
 "13687","Valerie Mandujano","Jonesbor",2021,2021-04-16,1635,1.5
 "13688","Alexis Mandujano","Jonesbor",2021,2021-04-16,1600.5,8.8
+"13702","Deann Carey","Jonesbor",2021,2021-04-16,1581.8,8.7
 "13743","Hailey King","Jonesbor",2021,2021-04-16,1703.8,-0.9
 "13758","Missy Gannon","Jonesbor",2021,2021-04-16,1685.9,4.4
 "13785","Kat Mertsch","Jonesbor",2021,2021-04-16,1556.1,0.8
-"13790","Heather Young","Jonesbor",2021,2021-04-16,1665.7,3.3
 "13898","Jennifer Allen","DD",2021,2021-04-28,1638.8,5.4
-"13904","Kona Star Panis","DD",2021,2021-04-28,1659.5,12.5
 "13910","Lisa Fajkus","DD",2021,2021-04-28,1673,-0.6
 "13912","Rebecca Cox","DD",2021,2021-04-28,1649.1,-17.1
 "13917","Sarah Hokom","DD",2021,2021-04-28,1742,-10.4
 "13927","Catrina Allen","DD",2021,2021-04-28,1778.7,4.2
 "13934","Ohn Scoggins","DD",2021,2021-04-28,1627.6,7.3
-"13961","Emily Beach","DD",2021,2021-04-28,1592.2,15.5
 "13966","Valerie Mandujano","DD",2021,2021-04-28,1648.6,13.7
 "13967","Alexis Mandujano","DD",2021,2021-04-28,1598.8,-1.7
 "13970","Maria Oliva","DD",2021,2021-04-28,1576.7,13.9
+"13981","Deann Carey","DD",2021,2021-04-28,1584.5,2.6
 "14022","Hailey King","DD",2021,2021-04-28,1720.6,16.8
 "14037","Missy Gannon","DD",2021,2021-04-28,1694.2,8.3
 "14064","Kat Mertsch","DD",2021,2021-04-28,1559,2.9
-"14069","Heather Young","DD",2021,2021-04-28,1683,17.3
-"14462","Kona Star Panis","OT",2021,2021-05-14,1666,6.5
 "14464","Paige Pierce","OT",2021,2021-05-14,1813,7
 "14468","Lisa Fajkus","OT",2021,2021-05-14,1681.3,8.3
 "14485","Catrina Allen","OT",2021,2021-05-14,1786.4,7.7
 "14492","Ohn Scoggins","OT",2021,2021-05-14,1637.6,10
 "14496","Jessica Weese","OT",2021,2021-05-14,1687.4,9.8
 "14516","Madison Walker","OT",2021,2021-05-14,1636.6,4.9
+"14539","Deann Carey","OT",2021,2021-05-14,1590.5,6
 "14595","Missy Gannon","OT",2021,2021-05-14,1703.1,8.9
 "14622","Kat Mertsch","OT",2021,2021-05-14,1573,13.9
+"14688","Holyn Handley","OT",2021,2021-05-14,1541.5,15
 "14707","Ella Hansen","OT",2021,2021-05-14,1542.2,21
 "14794","Henna Blomroos","Helsinki",2021,2021-05-14,1683.1,10.5
 "14813","Eveliina Salonen","Helsinki",2021,2021-05-14,1719.8,9.8
 "14817","Heidi Laine","Helsinki",2021,2021-05-14,1596.1,1.9
-"15020","Kona Star Panis","USWDG",2021,2021-05-21,1670.4,4.4
 "15022","Paige Pierce","USWDG",2021,2021-05-21,1819.1,6.1
 "15026","Lisa Fajkus","USWDG",2021,2021-05-21,1683.7,2.3
 "15043","Catrina Allen","USWDG",2021,2021-05-21,1782.2,-4.2
@@ -563,12 +518,13 @@
 "15054","Jessica Weese","USWDG",2021,2021-05-21,1686.3,-1.2
 "15074","Madison Walker","USWDG",2021,2021-05-21,1639.1,2.5
 "15086","Maria Oliva","USWDG",2021,2021-05-21,1579.9,3.2
+"15097","Deann Carey","USWDG",2021,2021-05-21,1594.1,3.7
 "15138","Hailey King","USWDG",2021,2021-05-21,1722.7,2
 "15153","Missy Gannon","USWDG",2021,2021-05-21,1706.3,3.2
 "15180","Kat Mertsch","USWDG",2021,2021-05-21,1570,-2.9
+"15246","Holyn Handley","USWDG",2021,2021-05-21,1544.6,3.1
 "15265","Ella Hansen","USWDG",2021,2021-05-21,1559.6,17.4
 "15291","Juliana Korver","Masters Cup",2021,2021-05-28,1561.9,32.3
-"15299","Kona Star Panis","Masters Cup",2021,2021-05-28,1681.1,10.7
 "15301","Paige Pierce","Masters Cup",2021,2021-05-28,1824.6,5.5
 "15305","Lisa Fajkus","Masters Cup",2021,2021-05-28,1691.6,7.9
 "15322","Catrina Allen","Masters Cup",2021,2021-05-28,1785.5,3.2
@@ -578,6 +534,7 @@
 "15361","Valerie Mandujano","Masters Cup",2021,2021-05-28,1656.5,7.9
 "15362","Alexis Mandujano","Masters Cup",2021,2021-05-28,1618,19.2
 "15365","Maria Oliva","Masters Cup",2021,2021-05-28,1600.2,20.3
+"15376","Deann Carey","Masters Cup",2021,2021-05-28,1599,4.8
 "15417","Hailey King","Masters Cup",2021,2021-05-28,1727.7,5.1
 "15432","Missy Gannon","Masters Cup",2021,2021-05-28,1710.2,3.9
 "15459","Kat Mertsch","Masters Cup",2021,2021-05-28,1583.9,13.8
@@ -586,7 +543,6 @@
 "15650","Eveliina Salonen","Tampere",2021,2021-05-28,1729.1,9.3
 "15654","Heidi Laine","Tampere",2021,2021-05-28,1599.3,3.2
 "15849","Juliana Korver","Portlan",2021,2021-06-04,1573,11.1
-"15857","Kona Star Panis","Portlan",2021,2021-06-04,1688.5,7.4
 "15859","Paige Pierce","Portlan",2021,2021-06-04,1832.2,7.6
 "15863","Lisa Fajkus","Portlan",2021,2021-06-04,1687.6,-4
 "15880","Catrina Allen","Portlan",2021,2021-06-04,1793.6,8.2
@@ -595,6 +551,7 @@
 "15911","Madison Walker","Portlan",2021,2021-06-04,1647.4,4.7
 "15919","Valerie Mandujano","Portlan",2021,2021-06-04,1661.8,5.3
 "15920","Alexis Mandujano","Portlan",2021,2021-06-04,1621,3
+"15934","Deann Carey","Portlan",2021,2021-06-04,1607.6,8.6
 "15975","Hailey King","Portlan",2021,2021-06-04,1736,8.2
 "15990","Missy Gannon","Portlan",2021,2021-06-04,1702.3,-7.8
 "16017","Kat Mertsch","Portlan",2021,2021-06-04,1592.5,8.6
@@ -604,7 +561,6 @@
 "16491","Heidi Laine","Turku",2021,2021-06-11,1611.1,11.9
 "16686","Juliana Korver","World",2021,2021-06-22,1582.4,9.4
 "16688","Jennifer Allen","World",2021,2021-06-22,1643.9,5.1
-"16694","Kona Star Panis","World",2021,2021-06-22,1685.8,-2.7
 "16696","Paige Pierce","World",2021,2021-06-22,1834.6,2.4
 "16700","Lisa Fajkus","World",2021,2021-06-22,1698.9,11.3
 "16702","Rebecca Cox","World",2021,2021-06-22,1633.9,-15.2
@@ -616,27 +572,27 @@
 "16756","Valerie Mandujano","World",2021,2021-06-22,1662.1,0.3
 "16757","Alexis Mandujano","World",2021,2021-06-22,1636.3,15.3
 "16760","Maria Oliva","World",2021,2021-06-22,1609.5,9.3
+"16771","Deann Carey","World",2021,2021-06-22,1618.9,11.3
 "16790","Kristin Tattar","World",2021,2021-06-22,1735.4,5.4
 "16812","Hailey King","World",2021,2021-06-22,1740.9,5
 "16827","Missy Gannon","World",2021,2021-06-22,1706.4,4
 "16854","Kat Mertsch","World",2021,2021-06-22,1593.4,0.9
-"16859","Heather Young","World",2021,2021-06-22,1687.2,4.2
+"16920","Holyn Handley","World",2021,2021-06-22,1556,11.5
 "16939","Ella Hansen","World",2021,2021-06-22,1613.6,16.5
 "17049","Heidi Laine","Tyyni",2021,2021-07-01,1623.3,12.2
 "17523","Juliana Korver","DesMoine",2021,2021-07-09,1595.3,12.9
-"17531","Kona Star Panis","DesMoine",2021,2021-07-09,1684.9,-1
 "17533","Paige Pierce","DesMoine",2021,2021-07-09,1837.7,3.1
 "17539","Rebecca Cox","DesMoine",2021,2021-07-09,1630.9,-3
 "17544","Sarah Hokom","DesMoine",2021,2021-07-09,1751,3.5
 "17554","Catrina Allen","DesMoine",2021,2021-07-09,1804.5,2.5
 "17565","Jessica Weese","DesMoine",2021,2021-07-09,1706.9,9
+"17608","Deann Carey","DesMoine",2021,2021-07-09,1627.1,8.2
 "17627","Kristin Tattar","DesMoine",2021,2021-07-09,1741.9,6.5
 "17664","Missy Gannon","DesMoine",2021,2021-07-09,1715.6,9.3
 "17691","Kat Mertsch","DesMoine",2021,2021-07-09,1604.5,11.1
 "17863","Henna Blomroos","Keisari",2021,2021-07-15,1706.4,5.1
 "17882","Eveliina Salonen","Keisari",2021,2021-07-15,1748,8.9
 "18081","Juliana Korver","DGL",2021,2021-07-23,1603.8,8.6
-"18089","Kona Star Panis","DGL",2021,2021-07-23,1677.4,-7.5
 "18091","Paige Pierce","DGL",2021,2021-07-23,1843,5.3
 "18095","Lisa Fajkus","DGL",2021,2021-07-23,1692.3,-6.6
 "18097","Rebecca Cox","DGL",2021,2021-07-23,1614.9,-16
@@ -645,13 +601,12 @@
 "18123","Jessica Weese","DGL",2021,2021-07-23,1704.5,-2.4
 "18151","Valerie Mandujano","DGL",2021,2021-07-23,1662.6,0.5
 "18152","Alexis Mandujano","DGL",2021,2021-07-23,1638.1,1.8
+"18166","Deann Carey","DGL",2021,2021-07-23,1636.6,9.5
 "18185","Kristin Tattar","DGL",2021,2021-07-23,1752.3,10.3
 "18207","Hailey King","DGL",2021,2021-07-23,1740.3,-0.6
 "18222","Missy Gannon","DGL",2021,2021-07-23,1713.2,-2.4
 "18249","Kat Mertsch","DGL",2021,2021-07-23,1613.5,9
-"18254","Heather Young","DGL",2021,2021-07-23,1694.1,6.8
 "18360","Juliana Korver","Preserv",2021,2021-07-30,1607.4,3.6
-"18368","Kona Star Panis","Preserv",2021,2021-07-30,1681.7,4.4
 "18370","Paige Pierce","Preserv",2021,2021-07-30,1844.9,2
 "18376","Rebecca Cox","Preserv",2021,2021-07-30,1623.3,8.4
 "18381","Sarah Hokom","Preserv",2021,2021-07-30,1746.6,-2.8
@@ -659,6 +614,7 @@
 "18402","Jessica Weese","Preserv",2021,2021-07-30,1711.7,7.3
 "18422","Madison Walker","Preserv",2021,2021-07-30,1636.2,-7.9
 "18434","Maria Oliva","Preserv",2021,2021-07-30,1617.7,8.3
+"18445","Deann Carey","Preserv",2021,2021-07-30,1641.8,5.2
 "18464","Kristin Tattar","Preserv",2021,2021-07-30,1763.2,11
 "18486","Hailey King","Preserv",2021,2021-07-30,1744.8,4.5
 "18501","Missy Gannon","Preserv",2021,2021-07-30,1712.4,-0.8
@@ -667,7 +623,6 @@
 "18719","Eveliina Salonen","Kuopio",2021,2021-07-30,1755.7,7.7
 "18723","Heidi Laine","Kuopio",2021,2021-07-30,1633.2,9.9
 "19197","Juliana Korver","Ledgestone",2021,2021-08-05,1623.9,16.4
-"19205","Kona Star Panis","Ledgestone",2021,2021-08-05,1683.9,2.2
 "19207","Paige Pierce","Ledgestone",2021,2021-08-05,1854.9,9.9
 "19213","Rebecca Cox","Ledgestone",2021,2021-08-05,1634.7,11.5
 "19218","Sarah Hokom","Ledgestone",2021,2021-08-05,1756.9,10.3
@@ -677,17 +632,16 @@
 "19267","Valerie Mandujano","Ledgestone",2021,2021-08-05,1680.3,17.7
 "19268","Alexis Mandujano","Ledgestone",2021,2021-08-05,1656,18
 "19271","Maria Oliva","Ledgestone",2021,2021-08-05,1641.2,23.5
+"19282","Deann Carey","Ledgestone",2021,2021-08-05,1650.1,8.3
 "19323","Hailey King","Ledgestone",2021,2021-08-05,1751.5,6.7
 "19338","Missy Gannon","Ledgestone",2021,2021-08-05,1727.4,15
 "19365","Kat Mertsch","Ledgestone",2021,2021-08-05,1621.3,7.8
-"19370","Heather Young","Ledgestone",2021,2021-08-05,1704.2,10.1
 "19450","Ella Hansen","Ledgestone",2021,2021-08-05,1619,5.4
 "19537","Henna Blomroos","European Championship",2021,2021-08-11,1726.8,11.9
 "19556","Eveliina Salonen","European Championship",2021,2021-08-11,1748.7,-7
 "19560","Heidi Laine","European Championship",2021,2021-08-11,1644.1,10.9
 "19580","Kristin Tattar","European Championship",2021,2021-08-11,1771.9,8.7
 "19755","Juliana Korver","Idlewil",2021,2021-08-13,1628.7,4.8
-"19763","Kona Star Panis","Idlewil",2021,2021-08-13,1687.9,4
 "19765","Paige Pierce","Idlewil",2021,2021-08-13,1859.3,4.4
 "19769","Lisa Fajkus","Idlewil",2021,2021-08-13,1701,8.7
 "19771","Rebecca Cox","Idlewil",2021,2021-08-13,1650.8,16
@@ -697,22 +651,20 @@
 "19797","Jessica Weese","Idlewil",2021,2021-08-13,1716.1,3
 "19817","Madison Walker","Idlewil",2021,2021-08-13,1656.4,10.6
 "19826","Alexis Mandujano","Idlewil",2021,2021-08-13,1668.8,12.8
+"19840","Deann Carey","Idlewil",2021,2021-08-13,1651.7,1.5
 "19881","Hailey King","Idlewil",2021,2021-08-13,1756,4.5
 "19896","Missy Gannon","Idlewil",2021,2021-08-13,1737.4,10
 "19923","Kat Mertsch","Idlewil",2021,2021-08-13,1621.4,0.1
-"19928","Heather Young","Idlewil",2021,2021-08-13,1711.6,7.4
 "20095","Henna Blomroos","Finnish Nationals",2021,2021-08-19,1738.3,11.5
 "20114","Eveliina Salonen","Finnish Nationals",2021,2021-08-19,1753.8,5.1
 "20118","Heidi Laine","Finnish Nationals",2021,2021-08-19,1649.3,5.1
-"20600","Kona Star Panis","DDG",2021,2021-08-27,1693.1,5.2
 "20608","Rebecca Cox","DDG",2021,2021-08-27,1654.9,4.2
 "20613","Sarah Hokom","DDG",2021,2021-08-27,1769.8,4.8
 "20623","Catrina Allen","DDG",2021,2021-08-27,1815.8,7.7
 "20634","Jessica Weese","DDG",2021,2021-08-27,1718.3,2.2
+"20677","Deann Carey","DDG",2021,2021-08-27,1653.1,1.4
 "20760","Kat Mertsch","DDG",2021,2021-08-27,1630.3,8.9
-"20765","Heather Young","DDG",2021,2021-08-27,1715.9,4.3
 "21150","Juliana Korver","MVP",2021,2021-09-03,1636.2,7.6
-"21158","Kona Star Panis","MVP",2021,2021-09-03,1705.7,12.6
 "21160","Paige Pierce","MVP",2021,2021-09-03,1862.8,3.5
 "21164","Lisa Fajkus","MVP",2021,2021-09-03,1706.3,5.3
 "21166","Rebecca Cox","MVP",2021,2021-09-03,1664.8,9.9
@@ -722,16 +674,16 @@
 "21192","Jessica Weese","MVP",2021,2021-09-03,1721.3,3
 "21212","Madison Walker","MVP",2021,2021-09-03,1665.8,9.4
 "21224","Maria Oliva","MVP",2021,2021-09-03,1651,9.8
+"21235","Deann Carey","MVP",2021,2021-09-03,1662.4,9.3
 "21276","Hailey King","MVP",2021,2021-09-03,1762.4,6.5
 "21291","Missy Gannon","MVP",2021,2021-09-03,1744.7,7.3
 "21318","Kat Mertsch","MVP",2021,2021-09-03,1639.8,9.5
-"21323","Heather Young","MVP",2021,2021-09-03,1723.4,7.5
+"21358","Natalie Ryan","MVP",2021,2021-09-03,1553,27.7
 "21403","Ella Hansen","MVP",2021,2021-09-03,1635.7,16.7
 "21490","Henna Blomroos","Heinol",2021,2021-09-03,1746.1,7.8
 "21509","Eveliina Salonen","Heinol",2021,2021-09-03,1758.2,4.4
 "21513","Heidi Laine","Heinol",2021,2021-09-03,1664.4,15.1
 "21708","Juliana Korver","GM",2021,2021-09-09,1637.6,1.4
-"21716","Kona Star Panis","GM",2021,2021-09-09,1708.8,3.1
 "21718","Paige Pierce","GM",2021,2021-09-09,1857.9,-4.8
 "21722","Lisa Fajkus","GM",2021,2021-09-09,1715.3,8.9
 "21724","Rebecca Cox","GM",2021,2021-09-09,1674.1,9.3
@@ -740,13 +692,13 @@
 "21750","Jessica Weese","GM",2021,2021-09-09,1727.4,6.1
 "21770","Madison Walker","GM",2021,2021-09-09,1667.2,1.5
 "21782","Maria Oliva","GM",2021,2021-09-09,1647.6,-3.5
+"21793","Deann Carey","GM",2021,2021-09-09,1667.2,4.8
 "21834","Hailey King","GM",2021,2021-09-09,1773.2,10.7
 "21849","Missy Gannon","GM",2021,2021-09-09,1746.7,2
 "21876","Kat Mertsch","GM",2021,2021-09-09,1645.9,6.1
-"21881","Heather Young","GM",2021,2021-09-09,1728.6,5.2
+"21916","Natalie Ryan","GM",2021,2021-09-09,1578,25
 "21961","Ella Hansen","GM",2021,2021-09-09,1635,-0.7
 "22266","Juliana Korver","MC",2021,2021-09-23,1657.2,19.6
-"22274","Kona Star Panis","MC",2021,2021-09-23,1723.3,14.5
 "22276","Paige Pierce","MC",2021,2021-09-23,1851.5,-6.5
 "22280","Lisa Fajkus","MC",2021,2021-09-23,1716.8,1.6
 "22282","Rebecca Cox","MC",2021,2021-09-23,1678.1,4
@@ -756,12 +708,12 @@
 "22336","Valerie Mandujano","MC",2021,2021-09-23,1702.3,22
 "22337","Alexis Mandujano","MC",2021,2021-09-23,1691.2,22.4
 "22340","Maria Oliva","MC",2021,2021-09-23,1668.8,21.3
+"22351","Deann Carey","MC",2021,2021-09-23,1678.1,11
 "22392","Hailey King","MC",2021,2021-09-23,1788.8,15.6
 "22407","Missy Gannon","MC",2021,2021-09-23,1751.6,5
 "22434","Kat Mertsch","MC",2021,2021-09-23,1658.1,12.2
-"22439","Heather Young","MC",2021,2021-09-23,1739,10.3
+"22474","Natalie Ryan","MC",2021,2021-09-23,1605,27
 "22928","Kristin Tattar","Pro Forester",2021,2021-09-23,1780.4,8.4
-"23390","Kona Star Panis","TPWDG",2021,2021-10-06,1739.8,16.6
 "23392","Paige Pierce","TPWDG",2021,2021-10-06,1841.3,-10.2
 "23396","Lisa Fajkus","TPWDG",2021,2021-10-06,1720.4,3.6
 "23398","Rebecca Cox","TPWDG",2021,2021-10-06,1688.8,10.7
@@ -773,293 +725,392 @@
 "23452","Valerie Mandujano","TPWDG",2021,2021-10-06,1721,18.7
 "23453","Alexis Mandujano","TPWDG",2021,2021-10-06,1706.5,15.3
 "23456","Maria Oliva","TPWDG",2021,2021-10-06,1686.1,17.3
+"23467","Deann Carey","TPWDG",2021,2021-10-06,1696.4,18.3
 "23508","Hailey King","TPWDG",2021,2021-10-06,1799.4,10.6
 "23523","Missy Gannon","TPWDG",2021,2021-10-06,1766,14.4
 "23550","Kat Mertsch","TPWDG",2021,2021-10-06,1678.4,20.3
-"23555","Heather Young","TPWDG",2021,2021-10-06,1748,9.1
+"23590","Natalie Ryan","TPWDG",2021,2021-10-06,1633.8,28.7
 "23635","Ella Hansen","TPWDG",2021,2021-10-06,1648.5,13.4
 "23660","Jennifer Allen","LVC",2022,2022-02-24,1651.1,21.6
-"23667","Kona Star Panis","LVC",2022,2022-02-24,1713.6,-2.2
 "23668","Paige Pierce","LVC",2022,2022-02-24,1817.1,9.9
-"23670","Lisa Fajkus","LVC",2022,2022-02-24,1700.7,2.4
-"23671","Rebecca Cox","LVC",2022,2022-02-24,1683.4,13.4
-"23676","Sarah Hokom","LVC",2022,2022-02-24,1773.7,-5.4
-"23684","Catrina Allen","LVC",2022,2022-02-24,1810.6,11
-"23686","Ohn Scoggins","LVC",2022,2022-02-24,1691.8,2.7
-"23689","Jessica Weese","LVC",2022,2022-02-24,1728.8,6.2
-"23703","Henna Blomroos","LVC",2022,2022-02-24,1721.4,0
-"23704","Madison Walker","LVC",2022,2022-02-24,1676,7.8
-"23706","Emily Beach","LVC",2022,2022-02-24,1610.8,27.8
-"23713","Maria Oliva","LVC",2022,2022-02-24,1669.2,1.7
-"23716","Eveliina Salonen","LVC",2022,2022-02-24,1741.1,8.8
-"23732","Kristin Tattar","LVC",2022,2022-02-24,1763.1,10.7
-"23744","Hailey King","LVC",2022,2022-02-24,1779,9.5
-"23760","Missy Gannon","LVC",2022,2022-02-24,1749.7,10.2
-"23776","Kat Mertsch","LVC",2022,2022-02-24,1676.4,15.9
-"23780","Heather Young","LVC",2022,2022-02-24,1719.5,-3.7
-"23846","Ella Hansen","LVC",2022,2022-02-24,1659.8,26.2
-"24113","Kona Star Panis","Waco",2022,2022-03-11,1697.7,-16
-"24114","Paige Pierce","Waco",2022,2022-03-11,1817.7,0.5
-"24116","Lisa Fajkus","Waco",2022,2022-03-11,1693.2,-7.5
-"24117","Rebecca Cox","Waco",2022,2022-03-11,1689.8,6.5
-"24122","Sarah Hokom","Waco",2022,2022-03-11,1768.4,-5.3
-"24130","Catrina Allen","Waco",2022,2022-03-11,1804,-6.6
-"24132","Ohn Scoggins","Waco",2022,2022-03-11,1703.1,11.3
-"24135","Jessica Weese","Waco",2022,2022-03-11,1720.5,-8.3
-"24149","Henna Blomroos","Waco",2022,2022-03-11,1729.3,7.9
-"24150","Madison Walker","Waco",2022,2022-03-11,1676.8,0.8
-"24152","Emily Beach","Waco",2022,2022-03-11,1610.6,-0.3
-"24157","Valerie Mandujano","Waco",2022,2022-03-11,1714.6,15.7
-"24158","Alexis Mandujano","Waco",2022,2022-03-11,1692.4,6.5
-"24159","Maria Oliva","Waco",2022,2022-03-11,1680.9,11.7
-"24162","Eveliina Salonen","Waco",2022,2022-03-11,1743.3,2.1
-"24178","Kristin Tattar","Waco",2022,2022-03-11,1771.4,8.4
-"24206","Missy Gannon","Waco",2022,2022-03-11,1752.1,2.5
-"24222","Kat Mertsch","Waco",2022,2022-03-11,1687.8,11.4
-"24226","Heather Young","Waco",2022,2022-03-11,1717.6,-1.9
-"24292","Ella Hansen","Waco",2022,2022-03-11,1666.1,6.2
-"24336","Kona Star Panis","Texas",2022,2022-03-25,1706.2,8.6
-"24337","Paige Pierce","Texas",2022,2022-03-25,1826.2,8.5
-"24339","Lisa Fajkus","Texas",2022,2022-03-25,1698.6,5.4
-"24340","Rebecca Cox","Texas",2022,2022-03-25,1692.9,3.1
-"24345","Sarah Hokom","Texas",2022,2022-03-25,1770.4,2.1
-"24353","Catrina Allen","Texas",2022,2022-03-25,1811.3,7.3
-"24355","Ohn Scoggins","Texas",2022,2022-03-25,1713.1,10.1
-"24358","Jessica Weese","Texas",2022,2022-03-25,1725.8,5.3
-"24372","Henna Blomroos","Texas",2022,2022-03-25,1736.1,6.8
-"24373","Madison Walker","Texas",2022,2022-03-25,1668.5,-8.3
-"24375","Emily Beach","Texas",2022,2022-03-25,1625.4,14.9
-"24380","Valerie Mandujano","Texas",2022,2022-03-25,1724.5,9.9
-"24381","Alexis Mandujano","Texas",2022,2022-03-25,1696.5,4.1
-"24382","Maria Oliva","Texas",2022,2022-03-25,1690.9,10
-"24385","Eveliina Salonen","Texas",2022,2022-03-25,1737.2,-6
-"24401","Kristin Tattar","Texas",2022,2022-03-25,1780.1,8.7
-"24429","Missy Gannon","Texas",2022,2022-03-25,1759.3,7.2
-"24445","Kat Mertsch","Texas",2022,2022-03-25,1697.8,10
-"24449","Heather Young","Texas",2022,2022-03-25,1718.4,0.8
-"24515","Ella Hansen","Texas",2022,2022-03-25,1668,1.9
-"24552","Jennifer Allen","Champions",2022,2022-04-14,1664.9,13.8
-"24559","Kona Star Panis","Champions",2022,2022-04-14,1714.3,8
-"24560","Paige Pierce","Champions",2022,2022-04-14,1832.6,6.5
-"24562","Lisa Fajkus","Champions",2022,2022-04-14,1705.8,7.2
-"24563","Rebecca Cox","Champions",2022,2022-04-14,1684.8,-8.1
-"24568","Sarah Hokom","Champions",2022,2022-04-14,1778.7,8.3
-"24576","Catrina Allen","Champions",2022,2022-04-14,1810.8,-0.5
-"24578","Ohn Scoggins","Champions",2022,2022-04-14,1726.4,13.3
-"24581","Jessica Weese","Champions",2022,2022-04-14,1711.6,-14.2
-"24595","Henna Blomroos","Champions",2022,2022-04-14,1740.1,4
-"24596","Madison Walker","Champions",2022,2022-04-14,1671.5,3.1
-"24598","Emily Beach","Champions",2022,2022-04-14,1640.6,15.2
-"24603","Valerie Mandujano","Champions",2022,2022-04-14,1733.1,8.7
-"24604","Alexis Mandujano","Champions",2022,2022-04-14,1707.9,11.4
-"24605","Maria Oliva","Champions",2022,2022-04-14,1695.8,5
-"24608","Eveliina Salonen","Champions",2022,2022-04-14,1738.3,1.1
-"24624","Kristin Tattar","Champions",2022,2022-04-14,1789.4,9.3
-"24636","Hailey King","Champions",2022,2022-04-14,1778.1,-0.9
-"24652","Missy Gannon","Champions",2022,2022-04-14,1762.5,3.2
-"24668","Kat Mertsch","Champions",2022,2022-04-14,1704.8,7
-"24676","Macie Velediaz","Champions",2022,2022-04-14,1679.4,5.7
-"24738","Ella Hansen","Champions",2022,2022-04-14,1664.6,-3.4
-"24775","Jennifer Allen","Jonesboro",2022,2022-04-22,1669.6,4.7
-"24782","Kona Star Panis","Jonesboro",2022,2022-04-22,1713.8,-0.5
-"24783","Paige Pierce","Jonesboro",2022,2022-04-22,1828.4,-4.3
-"24785","Lisa Fajkus","Jonesboro",2022,2022-04-22,1712.7,7
-"24786","Rebecca Cox","Jonesboro",2022,2022-04-22,1677.1,-7.7
-"24791","Sarah Hokom","Jonesboro",2022,2022-04-22,1775.6,-3.1
-"24799","Catrina Allen","Jonesboro",2022,2022-04-22,1811.5,0.7
-"24819","Madison Walker","Jonesboro",2022,2022-04-22,1670.3,-1.2
-"24821","Emily Beach","Jonesboro",2022,2022-04-22,1643.2,2.5
-"24826","Valerie Mandujano","Jonesboro",2022,2022-04-22,1739,5.9
-"24827","Alexis Mandujano","Jonesboro",2022,2022-04-22,1711.2,3.4
-"24828","Maria Oliva","Jonesboro",2022,2022-04-22,1679.3,-16.5
-"24847","Kristin Tattar","Jonesboro",2022,2022-04-22,1801.1,11.7
-"24859","Hailey King","Jonesboro",2022,2022-04-22,1776.7,-1.4
-"24875","Missy Gannon","Jonesboro",2022,2022-04-22,1770.1,7.6
-"24891","Kat Mertsch","Jonesboro",2022,2022-04-22,1714.8,10
-"24899","Macie Velediaz","Jonesboro",2022,2022-04-22,1679.7,0.3
-"24961","Ella Hansen","Jonesboro",2022,2022-04-22,1678.7,14.1
-"25056","Heidi Laine","Copenhagen",2022,2022-04-22,1650.3,2.3
-"25221","Jennifer Allen","DDO",2022,2022-04-28,1678.3,8.7
-"25229","Paige Pierce","DDO",2022,2022-04-28,1827.2,-1.1
-"25232","Rebecca Cox","DDO",2022,2022-04-28,1685.1,8.1
-"25245","Catrina Allen","DDO",2022,2022-04-28,1819.4,7.9
-"25250","Jessica Weese","DDO",2022,2022-04-28,1714.9,3.2
-"25265","Madison Walker","DDO",2022,2022-04-28,1680.9,10.6
-"25267","Emily Beach","DDO",2022,2022-04-28,1664.2,21
-"25272","Valerie Mandujano","DDO",2022,2022-04-28,1742.2,3.2
-"25273","Alexis Mandujano","DDO",2022,2022-04-28,1711.7,0.4
-"25274","Maria Oliva","DDO",2022,2022-04-28,1676.3,-3
-"25293","Kristin Tattar","DDO",2022,2022-04-28,1808.5,7.4
-"25305","Hailey King","DDO",2022,2022-04-28,1778.4,1.6
-"25321","Missy Gannon","DDO",2022,2022-04-28,1762.9,-7.3
-"25337","Kat Mertsch","DDO",2022,2022-04-28,1710.5,-4.3
-"25345","Macie Velediaz","DDO",2022,2022-04-28,1690.9,11.3
-"25407","Ella Hansen","DDO",2022,2022-04-28,1695.8,17.1
-"25502","Heidi Laine","Helsinki",2022,2022-05-06,1658.5,8.2
-"25666","Juliana Korver","OTB",2022,2022-05-20,1658.3,16.9
-"25667","Jennifer Allen","OTB",2022,2022-05-20,1688,9.7
-"25674","Kona Star Panis","OTB",2022,2022-05-20,1717.5,3.7
-"25675","Paige Pierce","OTB",2022,2022-05-20,1833.8,6.6
-"25677","Lisa Fajkus","OTB",2022,2022-05-20,1716.1,3.3
-"25683","Sarah Hokom","OTB",2022,2022-05-20,1774.9,-0.7
-"25691","Catrina Allen","OTB",2022,2022-05-20,1818.6,-0.8
-"25693","Ohn Scoggins","OTB",2022,2022-05-20,1732.4,6
-"25696","Jessica Weese","OTB",2022,2022-05-20,1718.7,3.9
-"25713","Emily Beach","OTB",2022,2022-05-20,1674.2,10
-"25718","Valerie Mandujano","OTB",2022,2022-05-20,1744.8,2.6
-"25719","Alexis Mandujano","OTB",2022,2022-05-20,1720.5,8.9
-"25720","Maria Oliva","OTB",2022,2022-05-20,1683.3,7
-"25751","Hailey King","OTB",2022,2022-05-20,1764.2,-14.1
-"25767","Missy Gannon","OTB",2022,2022-05-20,1768.2,5.3
-"25783","Kat Mertsch","OTB",2022,2022-05-20,1713.6,3.1
-"25853","Ella Hansen","OTB",2022,2022-05-20,1706,10.2
-"25933","Henna Blomroos","Heinola",2022,2022-05-27,1743.2,3.1
-"25946","Eveliina Salonen","Heinola",2022,2022-05-27,1746.8,8.5
-"25948","Heidi Laine","Heinola",2022,2022-05-27,1654.4,-4.1
-"26112","Juliana Korver","Portland",2022,2022-06-02,1668.2,9.8
-"26113","Jennifer Allen","Portland",2022,2022-06-02,1697.9,9.8
-"26120","Kona Star Panis","Portland",2022,2022-06-02,1716.3,-1.2
-"26121","Paige Pierce","Portland",2022,2022-06-02,1838,4.2
-"26124","Rebecca Cox","Portland",2022,2022-06-02,1698.2,13.1
-"26129","Sarah Hokom","Portland",2022,2022-06-02,1772.3,-2.6
-"26137","Catrina Allen","Portland",2022,2022-06-02,1819.4,0.9
-"26139","Ohn Scoggins","Portland",2022,2022-06-02,1747.7,15.3
-"26142","Jessica Weese","Portland",2022,2022-06-02,1720.8,2
-"26157","Madison Walker","Portland",2022,2022-06-02,1676.2,-4.7
-"26164","Valerie Mandujano","Portland",2022,2022-06-02,1763.5,18.7
-"26165","Alexis Mandujano","Portland",2022,2022-06-02,1717.5,-3
-"26166","Maria Oliva","Portland",2022,2022-06-02,1694.7,11.4
-"26213","Missy Gannon","Portland",2022,2022-06-02,1777.7,9.5
-"26229","Kat Mertsch","Portland",2022,2022-06-02,1725.7,12.1
-"26299","Ella Hansen","Portland",2022,2022-06-02,1712.9,6.9
-"26394","Heidi Laine","Oulu",2022,2022-06-10,1666,11.6
-"26631","Kristin Tattar","Jarva",2022,2022-06-17,1814.1,5.6
-"26840","Heidi Laine","Nokia",2022,2022-06-23,1678.2,12.2
-"27004","Juliana Korver","Preserve",2022,2022-06-24,1683.1,14.9
-"27005","Jennifer Allen","Preserve",2022,2022-06-24,1708.4,10.6
-"27012","Kona Star Panis","Preserve",2022,2022-06-24,1705.3,-11
-"27013","Paige Pierce","Preserve",2022,2022-06-24,1846.9,8.9
-"27015","Lisa Fajkus","Preserve",2022,2022-06-24,1722.2,6.1
-"27016","Rebecca Cox","Preserve",2022,2022-06-24,1708.8,10.6
-"27029","Catrina Allen","Preserve",2022,2022-06-24,1822.7,3.3
-"27031","Ohn Scoggins","Preserve",2022,2022-06-24,1747.7,0
-"27049","Madison Walker","Preserve",2022,2022-06-24,1684.5,8.2
-"27051","Emily Beach","Preserve",2022,2022-06-24,1687.2,13
-"27056","Valerie Mandujano","Preserve",2022,2022-06-24,1766.8,3.3
-"27057","Alexis Mandujano","Preserve",2022,2022-06-24,1717.1,-0.4
-"27058","Maria Oliva","Preserve",2022,2022-06-24,1706.7,12
-"27061","Eveliina Salonen","Preserve",2022,2022-06-24,1755.7,8.9
-"27089","Hailey King","Preserve",2022,2022-06-24,1745.9,-18.3
-"27105","Missy Gannon","Preserve",2022,2022-06-24,1787.8,10.1
-"27129","Macie Velediaz","Preserve",2022,2022-06-24,1701.5,10.5
-"27191","Ella Hansen","Preserve",2022,2022-06-24,1728.5,15.6
-"27227","Juliana Korver","USWDGC",2022,2022-06-30,1690.5,7.4
-"27235","Kona Star Panis","USWDGC",2022,2022-06-30,1703.3,-2
-"27236","Paige Pierce","USWDGC",2022,2022-06-30,1838.9,-8
-"27238","Lisa Fajkus","USWDGC",2022,2022-06-30,1720.7,-1.5
-"27239","Rebecca Cox","USWDGC",2022,2022-06-30,1713.1,4.3
-"27244","Sarah Hokom","USWDGC",2022,2022-06-30,1776.6,4.3
-"27252","Catrina Allen","USWDGC",2022,2022-06-30,1826.5,3.8
-"27254","Ohn Scoggins","USWDGC",2022,2022-06-30,1757.7,10
-"27257","Jessica Weese","USWDGC",2022,2022-06-30,1724.4,3.7
-"27271","Henna Blomroos","USWDGC",2022,2022-06-30,1750.1,6.8
-"27272","Madison Walker","USWDGC",2022,2022-06-30,1694,9.5
-"27274","Emily Beach","USWDGC",2022,2022-06-30,1697,9.7
-"27279","Valerie Mandujano","USWDGC",2022,2022-06-30,1775.9,9.1
-"27280","Alexis Mandujano","USWDGC",2022,2022-06-30,1723.4,6.2
-"27281","Maria Oliva","USWDGC",2022,2022-06-30,1716.5,9.8
-"27284","Eveliina Salonen","USWDGC",2022,2022-06-30,1758.7,3.1
-"27312","Hailey King","USWDGC",2022,2022-06-30,1756.6,10.7
-"27328","Missy Gannon","USWDGC",2022,2022-06-30,1790,2.2
-"27344","Kat Mertsch","USWDGC",2022,2022-06-30,1731.3,5.6
-"27352","Macie Velediaz","USWDGC",2022,2022-06-30,1706.3,4.9
-"27414","Ella Hansen","USWDGC",2022,2022-06-30,1731.4,3
-"27509","Heidi Laine","Tyyni",2022,2022-07-07,1684.7,6.5
-"27673","Juliana Korver","Idlewild",2022,2022-07-08,1701.6,11.1
-"27681","Kona Star Panis","Idlewild",2022,2022-07-08,1692.5,-10.8
-"27682","Paige Pierce","Idlewild",2022,2022-07-08,1836.9,-2
-"27684","Lisa Fajkus","Idlewild",2022,2022-07-08,1728.3,7.6
-"27685","Rebecca Cox","Idlewild",2022,2022-07-08,1716.7,3.6
-"27698","Catrina Allen","Idlewild",2022,2022-07-08,1834.4,7.9
-"27700","Ohn Scoggins","Idlewild",2022,2022-07-08,1769,11.3
-"27703","Jessica Weese","Idlewild",2022,2022-07-08,1733.6,9.2
-"27718","Madison Walker","Idlewild",2022,2022-07-08,1707.7,13.7
-"27720","Emily Beach","Idlewild",2022,2022-07-08,1695.9,-1.1
-"27725","Valerie Mandujano","Idlewild",2022,2022-07-08,1775.1,-0.9
-"27726","Alexis Mandujano","Idlewild",2022,2022-07-08,1734.9,11.5
-"27727","Maria Oliva","Idlewild",2022,2022-07-08,1722.5,6
-"27774","Missy Gannon","Idlewild",2022,2022-07-08,1799.2,9.2
-"27790","Kat Mertsch","Idlewild",2022,2022-07-08,1732.2,0.9
-"27798","Macie Velediaz","Idlewild",2022,2022-07-08,1718.7,12.3
-"27860","Ella Hansen","Idlewild",2022,2022-07-08,1742,10.5
-"28127","Kona Star Panis","Euro",2022,2022-07-21,1702.6,10.1
-"28128","Paige Pierce","Euro",2022,2022-07-21,1843.3,6.4
-"28144","Catrina Allen","Euro",2022,2022-07-21,1834,-0.4
-"28163","Henna Blomroos","Euro",2022,2022-07-21,1758.8,8.7
-"28176","Eveliina Salonen","Euro",2022,2022-07-21,1767.8,9.1
-"28178","Heidi Laine","Euro",2022,2022-07-21,1692.3,7.6
-"28236","Kat Mertsch","Euro",2022,2022-07-21,1738.4,6.2
-"28401","Heidi Laine","Estonia",2022,2022-07-28,1701.9,9.6
-"28565","Juliana Korver","DGLO",2022,2022-07-29,1712.1,10.5
-"28573","Kona Star Panis","DGLO",2022,2022-07-29,1712.6,10
-"28574","Paige Pierce","DGLO",2022,2022-07-29,1848.6,5.3
-"28576","Lisa Fajkus","DGLO",2022,2022-07-29,1732.7,4.4
-"28577","Rebecca Cox","DGLO",2022,2022-07-29,1721.5,4.8
-"28582","Sarah Hokom","DGLO",2022,2022-07-29,1784.5,7.9
-"28590","Catrina Allen","DGLO",2022,2022-07-29,1839.1,5.1
-"28592","Ohn Scoggins","DGLO",2022,2022-07-29,1779.1,10.1
-"28595","Jessica Weese","DGLO",2022,2022-07-29,1740.2,6.6
-"28612","Emily Beach","DGLO",2022,2022-07-29,1713.2,17.3
-"28617","Valerie Mandujano","DGLO",2022,2022-07-29,1784.9,9.8
-"28618","Alexis Mandujano","DGLO",2022,2022-07-29,1736.2,1.3
-"28619","Maria Oliva","DGLO",2022,2022-07-29,1724.4,1.9
-"28650","Hailey King","DGLO",2022,2022-07-29,1764,7.4
-"28666","Missy Gannon","DGLO",2022,2022-07-29,1803.4,4.2
-"28682","Kat Mertsch","DGLO",2022,2022-07-29,1748.5,10.1
-"28690","Macie Velediaz","DGLO",2022,2022-07-29,1731.5,12.8
-"28752","Ella Hansen","DGLO",2022,2022-07-29,1748.8,6.8
-"28832","Henna Blomroos","Finnish Nationals",2022,2022-08-04,1768.1,9.3
-"28845","Eveliina Salonen","Finnish Nationals",2022,2022-08-04,1778.6,10.8
-"28847","Heidi Laine","Finnish Nationals",2022,2022-08-04,1709.8,7.9
-"29011","Juliana Korver","Ledgestone",2022,2022-08-11,1721.3,9.2
-"29012","Jennifer Allen","Ledgestone",2022,2022-08-11,1713.7,5.2
-"29019","Kona Star Panis","Ledgestone",2022,2022-08-11,1708.7,-3.9
-"29020","Paige Pierce","Ledgestone",2022,2022-08-11,1847.7,-0.9
-"29022","Lisa Fajkus","Ledgestone",2022,2022-08-11,1746.7,14
-"29023","Rebecca Cox","Ledgestone",2022,2022-08-11,1721.7,0.2
-"29028","Sarah Hokom","Ledgestone",2022,2022-08-11,1785.5,0.9
-"29036","Catrina Allen","Ledgestone",2022,2022-08-11,1842.8,3.7
-"29038","Ohn Scoggins","Ledgestone",2022,2022-08-11,1791.6,12.4
-"29041","Jessica Weese","Ledgestone",2022,2022-08-11,1738.7,-1.5
-"29056","Madison Walker","Ledgestone",2022,2022-08-11,1724.9,17.1
-"29058","Emily Beach","Ledgestone",2022,2022-08-11,1712.3,-0.9
-"29063","Valerie Mandujano","Ledgestone",2022,2022-08-11,1782.3,-2.6
-"29064","Alexis Mandujano","Ledgestone",2022,2022-08-11,1750.3,14.1
-"29065","Maria Oliva","Ledgestone",2022,2022-08-11,1734.2,9.8
-"29084","Kristin Tattar","Ledgestone",2022,2022-08-11,1819.5,5.4
-"29096","Hailey King","Ledgestone",2022,2022-08-11,1759.7,-4.3
-"29112","Missy Gannon","Ledgestone",2022,2022-08-11,1816.2,12.8
-"29128","Kat Mertsch","Ledgestone",2022,2022-08-11,1751.7,3.1
-"29136","Macie Velediaz","Ledgestone",2022,2022-08-11,1727.7,-3.7
-"29198","Ella Hansen","Ledgestone",2022,2022-08-11,1755.5,6.7
-"29457","Juliana Korver","DMC",2022,2022-08-19,1719.7,-1.6
-"29465","Kona Star Panis","DMC",2022,2022-08-19,1719.7,11
-"29466","Paige Pierce","DMC",2022,2022-08-19,1846.7,-1
-"29468","Lisa Fajkus","DMC",2022,2022-08-19,1742.4,-4.3
-"29469","Rebecca Cox","DMC",2022,2022-08-19,1726.5,4.9
-"29474","Sarah Hokom","DMC",2022,2022-08-19,1790,4.5
-"29482","Catrina Allen","DMC",2022,2022-08-19,1840.2,-2.6
-"29487","Jessica Weese","DMC",2022,2022-08-19,1739.7,0.9
-"29501","Henna Blomroos","DMC",2022,2022-08-19,1772.7,4.7
-"29502","Madison Walker","DMC",2022,2022-08-19,1727.3,2.4
-"29504","Emily Beach","DMC",2022,2022-08-19,1714.7,2.3
-"29509","Valerie Mandujano","DMC",2022,2022-08-19,1784.8,2.6
-"29510","Alexis Mandujano","DMC",2022,2022-08-19,1745.7,-4.6
-"29511","Maria Oliva","DMC",2022,2022-08-19,1729.1,-5.1
-"29514","Eveliina Salonen","DMC",2022,2022-08-19,1789.6,11.1
-"29516","Heidi Laine","DMC",2022,2022-08-19,1718.8,8.9
-"29530","Kristin Tattar","DMC",2022,2022-08-19,1829.7,10.2
-"29542","Hailey King","DMC",2022,2022-08-19,1756.7,-3
-"29558","Missy Gannon","DMC",2022,2022-08-19,1814.6,-1.6
-"29574","Kat Mertsch","DMC",2022,2022-08-19,1760.7,9
-"29582","Macie Velediaz","DMC",2022,2022-08-19,1740.8,13.1
+"23671","Lisa Fajkus","LVC",2022,2022-02-24,1700.7,2.3
+"23672","Rebecca Cox","LVC",2022,2022-02-24,1683.3,13.3
+"23677","Sarah Hokom","LVC",2022,2022-02-24,1773.7,-5.5
+"23685","Catrina Allen","LVC",2022,2022-02-24,1810.5,11
+"23688","Ohn Scoggins","LVC",2022,2022-02-24,1691.7,2.6
+"23691","Jessica Weese","LVC",2022,2022-02-24,1728.7,6.2
+"23705","Henna Blomroos","LVC",2022,2022-02-24,1721.4,-0.1
+"23706","Madison Walker","LVC",2022,2022-02-24,1675.9,7.7
+"23715","Maria Oliva","LVC",2022,2022-02-24,1669.1,1.6
+"23719","Eveliina Salonen","LVC",2022,2022-02-24,1741.1,8.7
+"23723","Deann Carey","LVC",2022,2022-02-24,1680.1,3.3
+"23737","Kristin Tattar","LVC",2022,2022-02-24,1763,10.7
+"23750","Hailey King","LVC",2022,2022-02-24,1779,9.5
+"23766","Missy Gannon","LVC",2022,2022-02-24,1749.6,10.2
+"23783","Kat Mertsch","LVC",2022,2022-02-24,1676.4,15.8
+"23841","Holyn Handley","LVC",2022,2022-02-24,1584,33.6
+"23858","Ella Hansen","LVC",2022,2022-02-24,1659.8,26.2
+"24144","Paige Pierce","Waco",2022,2022-03-11,1817.6,0.5
+"24147","Lisa Fajkus","Waco",2022,2022-03-11,1693.2,-7.5
+"24148","Rebecca Cox","Waco",2022,2022-03-11,1689.8,6.5
+"24153","Sarah Hokom","Waco",2022,2022-03-11,1768.3,-5.3
+"24161","Catrina Allen","Waco",2022,2022-03-11,1804,-6.6
+"24164","Ohn Scoggins","Waco",2022,2022-03-11,1703,11.3
+"24167","Jessica Weese","Waco",2022,2022-03-11,1720.4,-8.3
+"24181","Henna Blomroos","Waco",2022,2022-03-11,1729.3,7.9
+"24182","Madison Walker","Waco",2022,2022-03-11,1676.7,0.8
+"24189","Valerie Mandujano","Waco",2022,2022-03-11,1714.6,15.7
+"24190","Alexis Mandujano","Waco",2022,2022-03-11,1692.4,6.5
+"24191","Maria Oliva","Waco",2022,2022-03-11,1680.8,11.7
+"24195","Eveliina Salonen","Waco",2022,2022-03-11,1743.2,2.1
+"24199","Deann Carey","Waco",2022,2022-03-11,1680.2,0.2
+"24213","Kristin Tattar","Waco",2022,2022-03-11,1771.4,8.4
+"24242","Missy Gannon","Waco",2022,2022-03-11,1752.1,2.5
+"24259","Kat Mertsch","Waco",2022,2022-03-11,1687.8,11.4
+"24293","Natalie Ryan","Waco",2022,2022-03-11,1627.1,6.7
+"24317","Holyn Handley","Waco",2022,2022-03-11,1597.6,13.6
+"24334","Ella Hansen","Waco",2022,2022-03-11,1666,6.2
+"24382","Paige Pierce","Texas",2022,2022-03-25,1826.1,8.5
+"24385","Lisa Fajkus","Texas",2022,2022-03-25,1698.6,5.4
+"24386","Rebecca Cox","Texas",2022,2022-03-25,1692.9,3.1
+"24391","Sarah Hokom","Texas",2022,2022-03-25,1770.4,2.1
+"24399","Catrina Allen","Texas",2022,2022-03-25,1811.2,7.3
+"24402","Ohn Scoggins","Texas",2022,2022-03-25,1713.1,10.1
+"24405","Jessica Weese","Texas",2022,2022-03-25,1725.8,5.3
+"24419","Henna Blomroos","Texas",2022,2022-03-25,1736.1,6.8
+"24420","Madison Walker","Texas",2022,2022-03-25,1668.4,-8.3
+"24427","Valerie Mandujano","Texas",2022,2022-03-25,1724.5,9.9
+"24428","Alexis Mandujano","Texas",2022,2022-03-25,1696.5,4.1
+"24429","Maria Oliva","Texas",2022,2022-03-25,1690.8,10
+"24433","Eveliina Salonen","Texas",2022,2022-03-25,1737.2,-6
+"24437","Deann Carey","Texas",2022,2022-03-25,1677.5,-2.8
+"24451","Kristin Tattar","Texas",2022,2022-03-25,1780.1,8.7
+"24480","Missy Gannon","Texas",2022,2022-03-25,1759.3,7.2
+"24497","Kat Mertsch","Texas",2022,2022-03-25,1697.8,10
+"24555","Holyn Handley","Texas",2022,2022-03-25,1616.4,18.8
+"24572","Ella Hansen","Texas",2022,2022-03-25,1667.9,1.9
+"24612","Jennifer Allen","Champions",2022,2022-04-14,1664.9,13.8
+"24620","Paige Pierce","Champions",2022,2022-04-14,1832.6,6.5
+"24623","Lisa Fajkus","Champions",2022,2022-04-14,1705.7,7.2
+"24624","Rebecca Cox","Champions",2022,2022-04-14,1684.8,-8.1
+"24629","Sarah Hokom","Champions",2022,2022-04-14,1778.7,8.3
+"24637","Catrina Allen","Champions",2022,2022-04-14,1810.8,-0.5
+"24640","Ohn Scoggins","Champions",2022,2022-04-14,1726.4,13.3
+"24643","Jessica Weese","Champions",2022,2022-04-14,1711.6,-14.2
+"24657","Henna Blomroos","Champions",2022,2022-04-14,1740.1,4
+"24658","Madison Walker","Champions",2022,2022-04-14,1671.5,3.1
+"24665","Valerie Mandujano","Champions",2022,2022-04-14,1733.1,8.7
+"24666","Alexis Mandujano","Champions",2022,2022-04-14,1707.8,11.4
+"24667","Maria Oliva","Champions",2022,2022-04-14,1695.8,5
+"24671","Eveliina Salonen","Champions",2022,2022-04-14,1738.3,1.1
+"24675","Deann Carey","Champions",2022,2022-04-14,1661.6,-15.9
+"24689","Kristin Tattar","Champions",2022,2022-04-14,1789.4,9.3
+"24702","Hailey King","Champions",2022,2022-04-14,1778.1,-0.9
+"24718","Missy Gannon","Champions",2022,2022-04-14,1762.5,3.2
+"24735","Kat Mertsch","Champions",2022,2022-04-14,1704.8,7
+"24744","Macie Velediaz","Champions",2022,2022-04-14,1679.3,5.7
+"24769","Natalie Ryan","Champions",2022,2022-04-14,1646.5,19.4
+"24810","Ella Hansen","Champions",2022,2022-04-14,1664.5,-3.4
+"24850","Jennifer Allen","Jonesboro",2022,2022-04-22,1669.5,4.7
+"24858","Paige Pierce","Jonesboro",2022,2022-04-22,1828.3,-4.3
+"24861","Lisa Fajkus","Jonesboro",2022,2022-04-22,1712.7,7
+"24862","Rebecca Cox","Jonesboro",2022,2022-04-22,1677,-7.7
+"24867","Sarah Hokom","Jonesboro",2022,2022-04-22,1775.6,-3.1
+"24875","Catrina Allen","Jonesboro",2022,2022-04-22,1811.5,0.7
+"24896","Madison Walker","Jonesboro",2022,2022-04-22,1670.3,-1.2
+"24903","Valerie Mandujano","Jonesboro",2022,2022-04-22,1739,5.9
+"24904","Alexis Mandujano","Jonesboro",2022,2022-04-22,1711.2,3.4
+"24905","Maria Oliva","Jonesboro",2022,2022-04-22,1679.3,-16.5
+"24913","Deann Carey","Jonesboro",2022,2022-04-22,1666.1,4.5
+"24927","Kristin Tattar","Jonesboro",2022,2022-04-22,1801,11.7
+"24940","Hailey King","Jonesboro",2022,2022-04-22,1776.7,-1.4
+"24956","Missy Gannon","Jonesboro",2022,2022-04-22,1770.1,7.6
+"24973","Kat Mertsch","Jonesboro",2022,2022-04-22,1714.7,10
+"24982","Macie Velediaz","Jonesboro",2022,2022-04-22,1679.6,0.3
+"25007","Natalie Ryan","Jonesboro",2022,2022-04-22,1643.1,-3.4
+"25031","Holyn Handley","Jonesboro",2022,2022-04-22,1636.7,20.3
+"25048","Ella Hansen","Jonesboro",2022,2022-04-22,1678.6,14.1
+"25150","Heidi Laine","Copenhagen",2022,2022-04-22,1650.3,2.3
+"25326","Jennifer Allen","DDO",2022,2022-04-28,1678.3,8.7
+"25334","Paige Pierce","DDO",2022,2022-04-28,1827.2,-1.1
+"25338","Rebecca Cox","DDO",2022,2022-04-28,1685.1,8.1
+"25351","Catrina Allen","DDO",2022,2022-04-28,1819.3,7.8
+"25357","Jessica Weese","DDO",2022,2022-04-28,1714.8,3.2
+"25372","Madison Walker","DDO",2022,2022-04-28,1680.9,10.6
+"25379","Valerie Mandujano","DDO",2022,2022-04-28,1742.2,3.2
+"25380","Alexis Mandujano","DDO",2022,2022-04-28,1711.6,0.4
+"25381","Maria Oliva","DDO",2022,2022-04-28,1676.3,-3
+"25389","Deann Carey","DDO",2022,2022-04-28,1669,2.9
+"25403","Kristin Tattar","DDO",2022,2022-04-28,1808.4,7.4
+"25416","Hailey King","DDO",2022,2022-04-28,1778.3,1.6
+"25432","Missy Gannon","DDO",2022,2022-04-28,1762.8,-7.3
+"25449","Kat Mertsch","DDO",2022,2022-04-28,1710.5,-4.3
+"25458","Macie Velediaz","DDO",2022,2022-04-28,1690.9,11.3
+"25483","Natalie Ryan","DDO",2022,2022-04-28,1656.8,13.7
+"25507","Holyn Handley","DDO",2022,2022-04-28,1646.3,9.6
+"25524","Ella Hansen","DDO",2022,2022-04-28,1695.8,17.1
+"25626","Heidi Laine","Helsinki",2022,2022-05-06,1658.5,8.2
+"25801","Juliana Korver","OTB",2022,2022-05-20,1658.3,16.9
+"25802","Jennifer Allen","OTB",2022,2022-05-20,1688,9.7
+"25810","Paige Pierce","OTB",2022,2022-05-20,1833.8,6.6
+"25813","Lisa Fajkus","OTB",2022,2022-05-20,1716,3.3
+"25819","Sarah Hokom","OTB",2022,2022-05-20,1774.9,-0.6
+"25827","Catrina Allen","OTB",2022,2022-05-20,1818.5,-0.8
+"25830","Ohn Scoggins","OTB",2022,2022-05-20,1732.3,6
+"25833","Jessica Weese","OTB",2022,2022-05-20,1718.7,3.9
+"25855","Valerie Mandujano","OTB",2022,2022-05-20,1744.8,2.6
+"25856","Alexis Mandujano","OTB",2022,2022-05-20,1720.5,8.9
+"25857","Maria Oliva","OTB",2022,2022-05-20,1683.3,7
+"25865","Deann Carey","OTB",2022,2022-05-20,1665.7,-3.2
+"25892","Hailey King","OTB",2022,2022-05-20,1764.2,-14.1
+"25908","Missy Gannon","OTB",2022,2022-05-20,1768.2,5.3
+"25925","Kat Mertsch","OTB",2022,2022-05-20,1713.6,3.1
+"25959","Natalie Ryan","OTB",2022,2022-05-20,1673.5,16.7
+"25983","Holyn Handley","OTB",2022,2022-05-20,1658.1,11.8
+"26000","Ella Hansen","OTB",2022,2022-05-20,1706,10.2
+"26085","Henna Blomroos","Heinola",2022,2022-05-27,1743.2,3.1
+"26099","Eveliina Salonen","Heinola",2022,2022-05-27,1746.8,8.5
+"26102","Heidi Laine","Heinola",2022,2022-05-27,1654.4,-4.1
+"26277","Juliana Korver","Portland",2022,2022-06-02,1668.2,9.8
+"26278","Jennifer Allen","Portland",2022,2022-06-02,1697.8,9.8
+"26286","Paige Pierce","Portland",2022,2022-06-02,1838,4.2
+"26290","Rebecca Cox","Portland",2022,2022-06-02,1698.2,13.1
+"26295","Sarah Hokom","Portland",2022,2022-06-02,1772.3,-2.6
+"26303","Catrina Allen","Portland",2022,2022-06-02,1819.4,0.9
+"26306","Ohn Scoggins","Portland",2022,2022-06-02,1747.6,15.3
+"26309","Jessica Weese","Portland",2022,2022-06-02,1720.7,2
+"26324","Madison Walker","Portland",2022,2022-06-02,1676.2,-4.7
+"26331","Valerie Mandujano","Portland",2022,2022-06-02,1763.5,18.7
+"26332","Alexis Mandujano","Portland",2022,2022-06-02,1717.5,-3
+"26333","Maria Oliva","Portland",2022,2022-06-02,1694.6,11.4
+"26341","Deann Carey","Portland",2022,2022-06-02,1668.9,3.2
+"26384","Missy Gannon","Portland",2022,2022-06-02,1777.7,9.5
+"26401","Kat Mertsch","Portland",2022,2022-06-02,1725.7,12.1
+"26435","Natalie Ryan","Portland",2022,2022-06-02,1683.1,9.5
+"26476","Ella Hansen","Portland",2022,2022-06-02,1712.9,6.9
+"26578","Heidi Laine","Oulu",2022,2022-06-10,1666,11.6
+"26831","Kristin Tattar","Jarva",2022,2022-06-17,1814.1,5.6
+"27054","Heidi Laine","Nokia",2022,2022-06-23,1678.2,12.2
+"27229","Juliana Korver","Preserve",2022,2022-06-24,1683.1,14.9
+"27230","Jennifer Allen","Preserve",2022,2022-06-24,1708.4,10.6
+"27238","Paige Pierce","Preserve",2022,2022-06-24,1846.9,8.9
+"27241","Lisa Fajkus","Preserve",2022,2022-06-24,1722.1,6.1
+"27242","Rebecca Cox","Preserve",2022,2022-06-24,1708.8,10.6
+"27255","Catrina Allen","Preserve",2022,2022-06-24,1822.7,3.3
+"27258","Ohn Scoggins","Preserve",2022,2022-06-24,1747.6,0
+"27276","Madison Walker","Preserve",2022,2022-06-24,1684.4,8.2
+"27283","Valerie Mandujano","Preserve",2022,2022-06-24,1766.8,3.3
+"27284","Alexis Mandujano","Preserve",2022,2022-06-24,1717.1,-0.4
+"27285","Maria Oliva","Preserve",2022,2022-06-24,1706.7,12
+"27289","Eveliina Salonen","Preserve",2022,2022-06-24,1755.7,8.9
+"27293","Deann Carey","Preserve",2022,2022-06-24,1668.5,-0.4
+"27320","Hailey King","Preserve",2022,2022-06-24,1745.9,-18.3
+"27336","Missy Gannon","Preserve",2022,2022-06-24,1787.8,10.1
+"27362","Macie Velediaz","Preserve",2022,2022-06-24,1701.5,10.5
+"27387","Natalie Ryan","Preserve",2022,2022-06-24,1688,4.9
+"27411","Holyn Handley","Preserve",2022,2022-06-24,1675.4,17.3
+"27428","Ella Hansen","Preserve",2022,2022-06-24,1728.4,15.6
+"27467","Juliana Korver","USWDGC",2022,2022-06-30,1690.5,7.4
+"27476","Paige Pierce","USWDGC",2022,2022-06-30,1838.9,-8
+"27479","Lisa Fajkus","USWDGC",2022,2022-06-30,1720.6,-1.5
+"27480","Rebecca Cox","USWDGC",2022,2022-06-30,1713.1,4.3
+"27485","Sarah Hokom","USWDGC",2022,2022-06-30,1776.6,4.3
+"27493","Catrina Allen","USWDGC",2022,2022-06-30,1826.5,3.8
+"27496","Ohn Scoggins","USWDGC",2022,2022-06-30,1757.6,10
+"27499","Jessica Weese","USWDGC",2022,2022-06-30,1724.4,3.7
+"27513","Henna Blomroos","USWDGC",2022,2022-06-30,1750,6.8
+"27514","Madison Walker","USWDGC",2022,2022-06-30,1693.9,9.5
+"27521","Valerie Mandujano","USWDGC",2022,2022-06-30,1775.9,9.1
+"27522","Alexis Mandujano","USWDGC",2022,2022-06-30,1723.4,6.2
+"27523","Maria Oliva","USWDGC",2022,2022-06-30,1716.5,9.8
+"27527","Eveliina Salonen","USWDGC",2022,2022-06-30,1758.7,3.1
+"27531","Deann Carey","USWDGC",2022,2022-06-30,1677.7,9.2
+"27558","Hailey King","USWDGC",2022,2022-06-30,1756.6,10.7
+"27574","Missy Gannon","USWDGC",2022,2022-06-30,1790,2.2
+"27591","Kat Mertsch","USWDGC",2022,2022-06-30,1731.3,5.6
+"27600","Macie Velediaz","USWDGC",2022,2022-06-30,1706.3,4.9
+"27625","Natalie Ryan","USWDGC",2022,2022-06-30,1698.2,10.2
+"27666","Ella Hansen","USWDGC",2022,2022-06-30,1731.4,3
+"27768","Heidi Laine","Tyyni",2022,2022-07-07,1684.7,6.5
+"27943","Juliana Korver","Idlewild",2022,2022-07-08,1701.5,11.1
+"27952","Paige Pierce","Idlewild",2022,2022-07-08,1836.9,-2
+"27955","Lisa Fajkus","Idlewild",2022,2022-07-08,1728.3,7.6
+"27956","Rebecca Cox","Idlewild",2022,2022-07-08,1716.7,3.6
+"27969","Catrina Allen","Idlewild",2022,2022-07-08,1834.4,7.9
+"27972","Ohn Scoggins","Idlewild",2022,2022-07-08,1769,11.3
+"27975","Jessica Weese","Idlewild",2022,2022-07-08,1733.6,9.2
+"27990","Madison Walker","Idlewild",2022,2022-07-08,1707.7,13.7
+"27997","Valerie Mandujano","Idlewild",2022,2022-07-08,1775.1,-0.9
+"27998","Alexis Mandujano","Idlewild",2022,2022-07-08,1734.9,11.5
+"27999","Maria Oliva","Idlewild",2022,2022-07-08,1722.5,6
+"28007","Deann Carey","Idlewild",2022,2022-07-08,1683.3,5.6
+"28050","Missy Gannon","Idlewild",2022,2022-07-08,1799.2,9.2
+"28067","Kat Mertsch","Idlewild",2022,2022-07-08,1732.2,0.9
+"28076","Macie Velediaz","Idlewild",2022,2022-07-08,1718.7,12.3
+"28125","Holyn Handley","Idlewild",2022,2022-07-08,1684,8.5
+"28142","Ella Hansen","Idlewild",2022,2022-07-08,1742,10.5
+"28428","Paige Pierce","Euro",2022,2022-07-21,1843.3,6.4
+"28445","Catrina Allen","Euro",2022,2022-07-21,1833.9,-0.4
+"28465","Henna Blomroos","Euro",2022,2022-07-21,1758.7,8.7
+"28479","Eveliina Salonen","Euro",2022,2022-07-21,1767.8,9.1
+"28482","Heidi Laine","Euro",2022,2022-07-21,1692.3,7.6
+"28483","Deann Carey","Euro",2022,2022-07-21,1678.7,-4.6
+"28543","Kat Mertsch","Euro",2022,2022-07-21,1738.4,6.2
+"28720","Heidi Laine","Estonia",2022,2022-07-28,1701.9,9.6
+"28895","Juliana Korver","DGLO",2022,2022-07-29,1712.1,10.5
+"28904","Paige Pierce","DGLO",2022,2022-07-29,1848.6,5.3
+"28907","Lisa Fajkus","DGLO",2022,2022-07-29,1732.7,4.4
+"28908","Rebecca Cox","DGLO",2022,2022-07-29,1721.5,4.8
+"28913","Sarah Hokom","DGLO",2022,2022-07-29,1784.5,7.9
+"28921","Catrina Allen","DGLO",2022,2022-07-29,1839.1,5.1
+"28924","Ohn Scoggins","DGLO",2022,2022-07-29,1779.1,10.1
+"28927","Jessica Weese","DGLO",2022,2022-07-29,1740.2,6.6
+"28949","Valerie Mandujano","DGLO",2022,2022-07-29,1784.8,9.8
+"28950","Alexis Mandujano","DGLO",2022,2022-07-29,1736.2,1.3
+"28951","Maria Oliva","DGLO",2022,2022-07-29,1724.4,1.9
+"28959","Deann Carey","DGLO",2022,2022-07-29,1691.5,12.8
+"28986","Hailey King","DGLO",2022,2022-07-29,1764,7.4
+"29002","Missy Gannon","DGLO",2022,2022-07-29,1803.4,4.3
+"29019","Kat Mertsch","DGLO",2022,2022-07-29,1748.5,10.1
+"29028","Macie Velediaz","DGLO",2022,2022-07-29,1731.5,12.8
+"29053","Natalie Ryan","DGLO",2022,2022-07-29,1716.7,18.5
+"29077","Holyn Handley","DGLO",2022,2022-07-29,1698.3,14.3
+"29094","Ella Hansen","DGLO",2022,2022-07-29,1748.8,6.8
+"29179","Henna Blomroos","Finnish Nationals",2022,2022-08-04,1768,9.3
+"29193","Eveliina Salonen","Finnish Nationals",2022,2022-08-04,1778.6,10.8
+"29196","Heidi Laine","Finnish Nationals",2022,2022-08-04,1709.8,7.9
+"29371","Juliana Korver","Ledgestone",2022,2022-08-11,1721.2,9.2
+"29372","Jennifer Allen","Ledgestone",2022,2022-08-11,1713.6,5.2
+"29380","Paige Pierce","Ledgestone",2022,2022-08-11,1847.6,-0.9
+"29383","Lisa Fajkus","Ledgestone",2022,2022-08-11,1746.7,14
+"29384","Rebecca Cox","Ledgestone",2022,2022-08-11,1721.6,0.2
+"29389","Sarah Hokom","Ledgestone",2022,2022-08-11,1785.4,0.9
+"29397","Catrina Allen","Ledgestone",2022,2022-08-11,1842.8,3.7
+"29400","Ohn Scoggins","Ledgestone",2022,2022-08-11,1791.5,12.4
+"29403","Jessica Weese","Ledgestone",2022,2022-08-11,1738.7,-1.5
+"29418","Madison Walker","Ledgestone",2022,2022-08-11,1724.8,17.1
+"29425","Valerie Mandujano","Ledgestone",2022,2022-08-11,1782.2,-2.6
+"29426","Alexis Mandujano","Ledgestone",2022,2022-08-11,1750.3,14.1
+"29427","Maria Oliva","Ledgestone",2022,2022-08-11,1734.2,9.8
+"29435","Deann Carey","Ledgestone",2022,2022-08-11,1695.1,3.6
+"29449","Kristin Tattar","Ledgestone",2022,2022-08-11,1819.4,5.4
+"29462","Hailey King","Ledgestone",2022,2022-08-11,1759.7,-4.3
+"29478","Missy Gannon","Ledgestone",2022,2022-08-11,1816.2,12.8
+"29495","Kat Mertsch","Ledgestone",2022,2022-08-11,1751.6,3.1
+"29504","Macie Velediaz","Ledgestone",2022,2022-08-11,1727.7,-3.7
+"29529","Natalie Ryan","Ledgestone",2022,2022-08-11,1710.8,-5.9
+"29553","Holyn Handley","Ledgestone",2022,2022-08-11,1712.2,13.9
+"29570","Ella Hansen","Ledgestone",2022,2022-08-11,1755.5,6.7
+"29847","Juliana Korver","DMC",2022,2022-08-19,1719.6,-1.6
+"29856","Paige Pierce","DMC",2022,2022-08-19,1846.7,-1
+"29859","Lisa Fajkus","DMC",2022,2022-08-19,1742.4,-4.3
+"29860","Rebecca Cox","DMC",2022,2022-08-19,1726.5,4.9
+"29865","Sarah Hokom","DMC",2022,2022-08-19,1790,4.6
+"29873","Catrina Allen","DMC",2022,2022-08-19,1840.2,-2.6
+"29879","Jessica Weese","DMC",2022,2022-08-19,1739.6,0.9
+"29893","Henna Blomroos","DMC",2022,2022-08-19,1772.7,4.7
+"29894","Madison Walker","DMC",2022,2022-08-19,1727.3,2.5
+"29901","Valerie Mandujano","DMC",2022,2022-08-19,1784.8,2.6
+"29902","Alexis Mandujano","DMC",2022,2022-08-19,1745.7,-4.6
+"29903","Maria Oliva","DMC",2022,2022-08-19,1729,-5.1
+"29907","Eveliina Salonen","DMC",2022,2022-08-19,1789.6,11.1
+"29910","Heidi Laine","DMC",2022,2022-08-19,1718.8,8.9
+"29911","Deann Carey","DMC",2022,2022-08-19,1697.7,2.7
+"29925","Kristin Tattar","DMC",2022,2022-08-19,1829.7,10.2
+"29938","Hailey King","DMC",2022,2022-08-19,1756.7,-3
+"29954","Missy Gannon","DMC",2022,2022-08-19,1814.6,-1.6
+"29971","Kat Mertsch","DMC",2022,2022-08-19,1760.6,9
+"29980","Macie Velediaz","DMC",2022,2022-08-19,1740.8,13.1
+"30323","Juliana Korver","World",2022,2022-08-30,1723.8,4.2
+"30324","Jennifer Allen","World",2022,2022-08-30,1724.2,10.6
+"30332","Paige Pierce","World",2022,2022-08-30,1848.2,1.5
+"30335","Lisa Fajkus","World",2022,2022-08-30,1747.9,5.5
+"30336","Rebecca Cox","World",2022,2022-08-30,1720.7,-5.8
+"30349","Catrina Allen","World",2022,2022-08-30,1836.6,-3.6
+"30352","Ohn Scoggins","World",2022,2022-08-30,1798.7,7.1
+"30355","Jessica Weese","World",2022,2022-08-30,1744.5,4.8
+"30369","Henna Blomroos","World",2022,2022-08-30,1784.3,11.6
+"30370","Madison Walker","World",2022,2022-08-30,1731.4,4.1
+"30377","Valerie Mandujano","World",2022,2022-08-30,1792.2,7.4
+"30378","Alexis Mandujano","World",2022,2022-08-30,1750.1,4.4
+"30379","Maria Oliva","World",2022,2022-08-30,1727.7,-1.3
+"30383","Eveliina Salonen","World",2022,2022-08-30,1797.8,8.2
+"30386","Heidi Laine","World",2022,2022-08-30,1725.9,7.1
+"30387","Deann Carey","World",2022,2022-08-30,1706.8,9.1
+"30401","Kristin Tattar","World",2022,2022-08-30,1838.8,9.1
+"30414","Hailey King","World",2022,2022-08-30,1763.4,6.8
+"30430","Missy Gannon","World",2022,2022-08-30,1820.9,6.3
+"30447","Kat Mertsch","World",2022,2022-08-30,1766.5,5.9
+"30456","Macie Velediaz","World",2022,2022-08-30,1747.3,6.5
+"30481","Natalie Ryan","World",2022,2022-08-30,1715.7,4.9
+"30505","Holyn Handley","World",2022,2022-08-30,1729.1,16.8
+"30522","Ella Hansen","World",2022,2022-08-30,1763.2,7.7
+"30561","Juliana Korver","GMC",2022,2022-09-15,1730.1,6.3
+"30562","Jennifer Allen","GMC",2022,2022-09-15,1731.9,7.7
+"30570","Paige Pierce","GMC",2022,2022-09-15,1838.8,-9.4
+"30573","Lisa Fajkus","GMC",2022,2022-09-15,1755.7,7.9
+"30574","Rebecca Cox","GMC",2022,2022-09-15,1719.9,-0.8
+"30579","Sarah Hokom","GMC",2022,2022-09-15,1786,-4
+"30587","Catrina Allen","GMC",2022,2022-09-15,1823.4,-13.2
+"30590","Ohn Scoggins","GMC",2022,2022-09-15,1812.1,13.4
+"30593","Jessica Weese","GMC",2022,2022-09-15,1752,7.5
+"30607","Henna Blomroos","GMC",2022,2022-09-15,1800.8,16.4
+"30608","Madison Walker","GMC",2022,2022-09-15,1732.7,1.3
+"30615","Valerie Mandujano","GMC",2022,2022-09-15,1802.8,10.6
+"30616","Alexis Mandujano","GMC",2022,2022-09-15,1744.2,-5.9
+"30617","Maria Oliva","GMC",2022,2022-09-15,1728.2,0.5
+"30621","Eveliina Salonen","GMC",2022,2022-09-15,1806.6,8.8
+"30625","Deann Carey","GMC",2022,2022-09-15,1724.9,18.1
+"30639","Kristin Tattar","GMC",2022,2022-09-15,1852.1,13.3
+"30668","Missy Gannon","GMC",2022,2022-09-15,1830.1,9.2
+"30685","Kat Mertsch","GMC",2022,2022-09-15,1773.7,7.2
+"30719","Natalie Ryan","GMC",2022,2022-09-15,1732.5,16.9
+"30760","Ella Hansen","GMC",2022,2022-09-15,1771.5,8.3
+"30862","Heidi Laine","Tampere",2022,2022-09-16,1730.6,4.8
+"31037","Juliana Korver","MVP",2022,2022-09-22,1739.3,9.3
+"31038","Jennifer Allen","MVP",2022,2022-09-22,1740.9,9
+"31046","Paige Pierce","MVP",2022,2022-09-22,1851.4,12.6
+"31049","Lisa Fajkus","MVP",2022,2022-09-22,1754.7,-1
+"31050","Rebecca Cox","MVP",2022,2022-09-22,1737.7,17.8
+"31055","Sarah Hokom","MVP",2022,2022-09-22,1799,13.1
+"31063","Catrina Allen","MVP",2022,2022-09-22,1831.3,7.9
+"31066","Ohn Scoggins","MVP",2022,2022-09-22,1824.1,12
+"31069","Jessica Weese","MVP",2022,2022-09-22,1760,8
+"31083","Henna Blomroos","MVP",2022,2022-09-22,1812.8,12
+"31084","Madison Walker","MVP",2022,2022-09-22,1747,14.3
+"31091","Valerie Mandujano","MVP",2022,2022-09-22,1812.4,9.6
+"31092","Alexis Mandujano","MVP",2022,2022-09-22,1746.4,2.2
+"31093","Maria Oliva","MVP",2022,2022-09-22,1741.1,12.9
+"31097","Eveliina Salonen","MVP",2022,2022-09-22,1817.6,11
+"31101","Deann Carey","MVP",2022,2022-09-22,1748.2,23.3
+"31115","Kristin Tattar","MVP",2022,2022-09-22,1863.9,11.8
+"31144","Missy Gannon","MVP",2022,2022-09-22,1832.4,2.3
+"31161","Kat Mertsch","MVP",2022,2022-09-22,1784.8,11.1
+"31170","Macie Velediaz","MVP",2022,2022-09-22,1765.4,18.1
+"31195","Natalie Ryan","MVP",2022,2022-09-22,1758,25.4
+"31219","Holyn Handley","MVP",2022,2022-09-22,1752,22.9
+"31236","Ella Hansen","MVP",2022,2022-09-22,1787.1,15.6
+"31276","Jennifer Allen","TPWDGC",2022,2022-10-06,1757.2,16.2
+"31284","Paige Pierce","TPWDGC",2022,2022-10-06,1853.5,2.1
+"31287","Lisa Fajkus","TPWDGC",2022,2022-10-06,1752.5,-2.2
+"31288","Rebecca Cox","TPWDGC",2022,2022-10-06,1743.5,5.8
+"31293","Sarah Hokom","TPWDGC",2022,2022-10-06,1807.8,8.7
+"31301","Catrina Allen","TPWDGC",2022,2022-10-06,1844.1,12.8
+"31304","Ohn Scoggins","TPWDGC",2022,2022-10-06,1827.4,3.2
+"31307","Jessica Weese","TPWDGC",2022,2022-10-06,1763.7,3.8
+"31321","Henna Blomroos","TPWDGC",2022,2022-10-06,1826.1,13.4
+"31322","Madison Walker","TPWDGC",2022,2022-10-06,1752.4,5.4
+"31329","Valerie Mandujano","TPWDGC",2022,2022-10-06,1801.7,-10.7
+"31330","Alexis Mandujano","TPWDGC",2022,2022-10-06,1752.3,5.9
+"31331","Maria Oliva","TPWDGC",2022,2022-10-06,1742.7,1.5
+"31335","Eveliina Salonen","TPWDGC",2022,2022-10-06,1825.4,7.8
+"31338","Heidi Laine","TPWDGC",2022,2022-10-06,1744.6,13.9
+"31339","Deann Carey","TPWDGC",2022,2022-10-06,1750.7,2.5
+"31353","Kristin Tattar","TPWDGC",2022,2022-10-06,1873.6,9.7
+"31366","Hailey King","TPWDGC",2022,2022-10-06,1780.2,16.8
+"31382","Missy Gannon","TPWDGC",2022,2022-10-06,1840.7,8.3
+"31399","Kat Mertsch","TPWDGC",2022,2022-10-06,1789.1,4.3
+"31408","Macie Velediaz","TPWDGC",2022,2022-10-06,1773.7,8.4
+"31433","Natalie Ryan","TPWDGC",2022,2022-10-06,1773.4,15.4
+"31457","Holyn Handley","TPWDGC",2022,2022-10-06,1767.8,15.9
+"31474","Ella Hansen","TPWDGC",2022,2022-10-06,1794.5,7.4
